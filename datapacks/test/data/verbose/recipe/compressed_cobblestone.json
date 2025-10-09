@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "minecraft:cobblestone"
+	},
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"result": {
+		"components": {
+			"minecraft:item_name": "Compressed Cobblestone",
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:lore": [
+				"Deep Rock cobblestone"
+			],
+			"minecraft:item_model": "minecraft:cobblestone"
+		},
+		"count": 1,
+		"id": "minecraft:popped_chorus_fruit"
+	}
+}

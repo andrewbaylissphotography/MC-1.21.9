@@ -1,0 +1,3 @@
+schedule function verbose:skinswapper_bruhwae 2s
+schedule function verbose:skinswapper_cababs 4s
+schedule function verbose:skinswapper_hanaweth 6s

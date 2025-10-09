@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:villager",
+  "trades": {
+    "toolsmith": [
+      {
+        "max_uses": 100,
+        "price_multiplier": 0.0,
+        "reward_exp": true,
+        "buy": {
+          "item": "minecraft:cobblestone",
+          "count": 9
+        },
+        "sell": {
+          "item": "minecraft:popped_chorus_fruit",
+          "count": 1,
+          "nbt": "{display:{Name:'{\"text\":\"Compressed Cobblestone\"}',Lore:['{\"text\":\"Deep Rock cobblestone\"}']},HideFlags:1,CustomModelData:1}"
+        }
+      }
+    ]
+  }
+}
