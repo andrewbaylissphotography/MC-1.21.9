@@ -1,6 +1,7 @@
 {
   "values": [
     "verbose:load",
-    "altar:load"
+    "altar:load",
+    "verbose:give_command_book"
   ]
 }
