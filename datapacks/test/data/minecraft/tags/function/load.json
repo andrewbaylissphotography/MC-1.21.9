@@ -2,6 +2,7 @@
   "values": [
     "verbose:load",
     "altar:load",
-    "verbose:give_command_book"
+    "upgrade:load",
+    "references:give_command_book"
   ]
 }

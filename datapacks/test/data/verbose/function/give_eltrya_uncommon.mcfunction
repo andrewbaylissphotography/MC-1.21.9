@@ -1,0 +1,17 @@
+give @a elytra[
+    lore=[
+        [{"text":"Quality:","italic":false,"color":"gray"},{"text":" ","italic":false},{"text":"Uncommon","italic":false,"color":"green"}],
+        [{"text":"Tired of swapping your Elytra and Chestplate?","italic":false,"color":"dark_purple"}],
+        [{"text":"Now you don't need to.","italic":false,"color":"dark_purple"}]
+    ],
+        item_name=[
+            {"text":"Elytra Chestplate","italic":false,"color":"green"}],
+        enchantment_glint_override=true,
+        attribute_modifiers=[
+            {type:armor,amount:8,slot:chest,operation:add_value,id:"1760556117546"},
+            {type:armor_toughness,amount:3,slot:chest,operation:add_value,id:"1760556117547"},
+            {type:knockback_resistance,amount:.1,slot:chest,operation:add_value,id:"1760556117548"}
+        ],
+        equippable={slot:chest},
+        unbreakable={}
+    ]

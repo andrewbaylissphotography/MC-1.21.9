@@ -22,3 +22,5 @@ scoreboard players set #prevOverworldDoImmediateRespawn back.dummy 0
 scoreboard players set #prevNetherDoImmediateRespawn back.dummy 0
 scoreboard players set #prevEndDoImmediateRespawn back.dummy 0
 scoreboard players reset * back.deaths
+
+tellraw @a {"text":"[VanillaTweaks] Back","color":"green"}

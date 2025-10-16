@@ -9,3 +9,5 @@ scoreboard objectives add tpcancel trigger
 scoreboard objectives add tpaccept trigger
 scoreboard objectives add tpdeny trigger
 execute unless score #cooldown tpa.config matches 0.. run scoreboard players set #cooldown tpa.config 0
+
+tellraw @a {"text":"[VanillaTweaks] TPA","color":"green"}

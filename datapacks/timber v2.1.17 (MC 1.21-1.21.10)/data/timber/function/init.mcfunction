@@ -32,5 +32,3 @@ execute if score doTileDrops timber matches 0 run tellraw @a ["",{"text":"Timber
 # Getting the game version and checking if it is compatible with the datapack https://minecraft.fandom.com/wiki/Data_version
 # execute store result score game_version timber run data get entity @r DataVersion
 # execute if score game_version timber matches ..2716 run tellraw @a ["",{"text":"Timber Datapack Warning: ","color":"red"},{"text":"This datapack is not compatible with all the versions before 1.17!"}]
-
-tellraw @a {"text":"[VanillaTweaks] Timber","color":"green"}

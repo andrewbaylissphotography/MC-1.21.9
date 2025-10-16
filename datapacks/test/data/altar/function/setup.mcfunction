@@ -13,3 +13,6 @@ bossbar set altar:contribution players @a
 bossbar set altar:contribution value 0
 bossbar set altar:contribution style notched_10
 bossbar set altar:contribution color blue
+
+# Random reward for uncommon items
+scoreboard objectives add AltarRewardRoll dummy
