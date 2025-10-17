@@ -1,4 +1,6 @@
-#verbose:load
+# datapacks\test\data\verbose\function\load.mcfunction
+# called by:
+#   datapacks\test\data\minecraft\tags\function\load.json
 recipe take @a *
 recipe give @a *
 tellraw @a {"text":"[Verbose] Reload complete!","color":"green"}

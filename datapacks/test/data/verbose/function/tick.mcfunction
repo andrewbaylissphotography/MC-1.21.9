@@ -1,4 +1,7 @@
-#verbose:tick
+# datapacks\test\data\verbose\function\tick.mcfunction
+# called by:
+#   datapacks\test\data\verbose\function\load.mcfunction
+#   datapacks\test\data\verbose\function\tick.mcfunction
 
 tag @e[gamemode=spectator] add has_night_vision 
 effect give @e[tag=has_night_vision] night_vision infinite
