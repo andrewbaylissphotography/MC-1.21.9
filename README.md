@@ -1,11 +1,12 @@
 # CoreBound
-A community-driven vanilla+ Minecraft server (1.21.8) built with datapacks, custom systems, and server-wide effects.
+A vanilla Minecraft server built from 1.21.9 - The Copper Age with datapacks, custom systems, and server-wide effects.
 
 ## Features
 - Skyblock-style home islands
 - Resets of Overworld, Nether, and End
-- Contributional Altar
-- Built with custom datapacks — no mods or installs needed
+- Contribution Altar
+- Quality Items: Uncommon, Rare, Epic, Legendary
+- Item Sets: 4p Newbie set grants: Luck 1, Regen 1, Speed 1, Resistance 1
 
 ## How to Play
 1. Join the server: `play.corebound.xyz` *(example)*
