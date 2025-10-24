@@ -18,6 +18,10 @@ A vanilla Minecraft server built from 1.21.9 - The Copper Age with datapacks, cu
 
 ## Resources
 https://vanillatweaks.net/
+
 https://www.gamergeeks.net/apps/minecraft
+
 https://misode.github.io/
+
 https://chatgpt.com/
+
