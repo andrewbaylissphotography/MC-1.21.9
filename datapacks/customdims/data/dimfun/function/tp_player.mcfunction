@@ -1,0 +1,11 @@
+# Teleports the executing player to their proper home marker
+execute if score @s tpa.pid matches 1 run execute in ph1:home run tp @s @e[type=minecraft:marker,tag=ph1,limit=1]
+execute if score @s tpa.pid matches 2 run execute in ph2:home run tp @s @e[type=minecraft:marker,tag=ph2,limit=1]
+execute if score @s tpa.pid matches 3 run execute in ph3:home run tp @s @e[type=minecraft:marker,tag=ph3,limit=1]
+execute if score @s tpa.pid matches 4 run execute in ph4:home run tp @s @e[type=minecraft:marker,tag=ph4,limit=1]
+execute if score @s tpa.pid matches 5 run execute in ph5:home run tp @s @e[type=minecraft:marker,tag=ph5,limit=1]
+execute if score @s tpa.pid matches 6 run execute in ph6:home run tp @s @e[type=minecraft:marker,tag=ph6,limit=1]
+execute if score @s tpa.pid matches 7 run execute in ph7:home run tp @s @e[type=minecraft:marker,tag=ph7,limit=1]
+execute if score @s tpa.pid matches 8 run execute in ph8:home run tp @s @e[type=minecraft:marker,tag=ph8,limit=1]
+execute if score @s tpa.pid matches 9 run execute in ph9:home run tp @s @e[type=minecraft:marker,tag=ph9,limit=1]
+execute if score @s tpa.pid matches 10 run execute in ph10:home run tp @s @e[type=minecraft:marker,tag=ph10,limit=1]

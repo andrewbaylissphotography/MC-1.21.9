@@ -1,2 +1,2 @@
 #https://www.gamergeeks.net/apps/minecraft/give-command-generator/import-convert
-/give @a popped_chorus_fruit[lore=[[{"text":"DRG","italic":false}]],item_name=[{"text":"Compressed Cobblestone","italic":false}],enchantment_glint_override=true,item_model="minecraft:cobblestone"]
+give @a popped_chorus_fruit[lore=[[{"text":"DRG","italic":false}]],item_name=[{"text":"Compressed Cobblestone","italic":false}],enchantment_glint_override=true,item_model="minecraft:cobblestone"]

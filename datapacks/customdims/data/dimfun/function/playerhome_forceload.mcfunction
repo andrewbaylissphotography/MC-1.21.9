@@ -1,0 +1,10 @@
+execute in ph1:home run forceload add 0 0
+execute in ph2:home run forceload add 0 0
+execute in ph3:home run forceload add 0 0
+execute in ph4:home run forceload add 0 0
+execute in ph5:home run forceload add 0 0
+execute in ph6:home run forceload add 0 0
+execute in ph7:home run forceload add 0 0
+execute in ph8:home run forceload add 0 0
+execute in ph9:home run forceload add 0 0
+execute in ph10:home run forceload add 0 0

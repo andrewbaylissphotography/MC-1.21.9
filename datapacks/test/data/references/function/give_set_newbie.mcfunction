@@ -1,0 +1,4 @@
+function references:give_set_newbie_boots
+function references:give_set_newbie_chestplate
+function references:give_set_newbie_helmet
+function references:give_set_newbie_leggings

@@ -1,0 +1,21 @@
+summon minecraft:text_display ~ ~ ~ {
+  text: {
+    text: "",
+    extra: [
+      "Welcome to ",
+      {text:"CoreBound",bold:1b,color:"yellow"},
+      "\nThis is the ",
+      {text:"Server Spawn",color:"red"},
+      ".\nfall off the edge to go to the ",
+      {text:"Overworld",color:"green"},
+      ".\n\n/",
+      {text:"trigger sbhome",color:"dark_aqua"},
+      " to go to your skyblock home"
+    ]
+  },
+  see_through:false,
+  shadow:true,
+  billboard:"vertical",
+  background:0,
+  Tags:["spawn_welcome_display"]
+}

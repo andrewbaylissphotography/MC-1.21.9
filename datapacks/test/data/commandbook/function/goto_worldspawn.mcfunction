@@ -1,0 +1,1 @@
+execute as @s in spawn:spawn_overworld run tp @s @e[type=marker,tag=worldspawn,limit=1]
