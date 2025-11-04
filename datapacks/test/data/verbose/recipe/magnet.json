@@ -2,18 +2,23 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"key": {
-		"#": "minecraft:copper_ingot"
+		"i": "minecraft:iron_ingot",
+		"e": "minecraft:ender_pearl",
+		"l": "minecraft:lapis_lazuli",
+		"g": "minecraft:gold_ingot"
+
 	},
 	"pattern": [
-		" #",
-		"# "
+		"iil",
+		"ie ",
+		"iig"
 	],
 	"result": {
 		"components": {
-			"minecraft:item_name": "Copper Shears",
+			"minecraft:item_name": "Magnet",
 			"minecraft:enchantment_glint_override": true,
 			"minecraft:lore": [
-				"should have been added to the copper age",
+				"just like modded",
 				{
 					"text": "#CoreBound",
 					"color": "gray"
@@ -21,6 +26,6 @@
 			]
 		},
 		"count": 1,
-		"id": "minecraft:shears"
+		"id": "minecraft:echo_shard"
 	}
 }

@@ -14,7 +14,11 @@
 			"minecraft:item_name": "Compressed Cobblestone",
 			"minecraft:enchantment_glint_override": true,
 			"minecraft:lore": [
-				"Deep Rock cobblestone"
+				"Deep Rock cobblestone",
+				{
+					"text": "#CoreBound",
+					"color": "gray"
+				}
 			],
 			"minecraft:item_model": "minecraft:cobblestone"
 		},

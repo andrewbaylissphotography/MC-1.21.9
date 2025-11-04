@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		[
+			"minecraft:barrier"
+		]
+	],
+	"result": {
+		"id": "minecraft:barrier",
+		"components": {
+			"minecraft:lore": [
+				"Furnace Recipe",
+				{
+					"text": "#CoreBound",
+					"color": "gray"
+				}
+			],
+			"minecraft:item_model": "minecraft:gold_block",
+			"minecraft:item_name": {
+				"text": "Block of Gold",
+				"color": "white"
+			}
+		},
+		"count": 1
+	}
+}

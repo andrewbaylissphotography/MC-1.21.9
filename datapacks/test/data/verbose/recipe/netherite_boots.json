@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [["minecraft:barrier"]],
+  "result": {
+    "id": "minecraft:barrier",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"text": "Netherite Boots", "color": "white"},
+      "minecraft:item_model": "minecraft:netherite_boots",
+      "minecraft:lore": [
+        "Netherite Upgrade + Diamond Boots + Netherite Ingot",
+        "",
+        "Smithing Table Upgrade",
+        {"text": "#CoreBound", "color": "gray"}
+      ]
+    }
+  }
+}

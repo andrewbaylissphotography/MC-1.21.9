@@ -12,11 +12,7 @@ team modify worldspawn friendlyFire false
 team modify worldspawn color gray
 
 tellraw @a {"text":"[Verbose] Reload complete!","color":"green"}
-tellraw @a {"text":"[NEW RECIPE - Copper Shears]","color":"green"}
-tellraw @a {"text":"[NEW RECIPE - Compressed Cobblestone]","color":"green"}
-tellraw @a {"text":"[NEW RECIPE - Copper Block from Raw Copper Block]","color":"green"}
-tellraw @a {"text":"[NEW RECIPE - Iron Block from Raw Iron Block]","color":"green"}
-tellraw @a {"text":"[NEW RECIPE - Gold Block from Raw Gold Block]","color":"green"}
+tellraw @a {"text":"[NEW RECIPES - search recipe book with #CoreBound]","color":"green"}
 tellraw @a {"text":"[Spectator Night Vision]","color":"green"}
 
 schedule function verbose:tick 1t

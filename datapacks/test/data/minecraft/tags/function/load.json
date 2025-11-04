@@ -3,6 +3,7 @@
     "verbose:load",
     "altar:load",
     "upgrade:load",
-    "references:give_command_book"
+    "references:give_command_book",
+    "magnet:load"
   ]
 }
