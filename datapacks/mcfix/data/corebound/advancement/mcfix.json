@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:knowledge_book"
+		},
+		"title": "Magnet",
+		"description": [
+			"",
+			{
+				"text": "fixed vanilla issues like no recipes in smithing table and raw blocks not being smeltable",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

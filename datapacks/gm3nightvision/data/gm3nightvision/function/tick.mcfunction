@@ -1,0 +1,8 @@
+# Spectator night vision
+tag @e[gamemode=spectator] add has_night_vision 
+effect give @e[tag=has_night_vision] night_vision infinite
+effect clear @e[tag=has_night_vision,gamemode=!spectator] night_vision
+tag @e[gamemode=!spectator] remove has_night_vision
+
+# Reschedule self
+schedule function gm3nightvision:tick 1t

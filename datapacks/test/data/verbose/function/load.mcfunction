@@ -12,7 +12,5 @@ team modify worldspawn friendlyFire false
 team modify worldspawn color gray
 
 tellraw @a {"text":"[Verbose] Reload complete!","color":"green"}
-tellraw @a {"text":"[NEW RECIPES - search recipe book with #CoreBound]","color":"green"}
-tellraw @a {"text":"[Spectator Night Vision]","color":"green"}
 
 schedule function verbose:tick 1t

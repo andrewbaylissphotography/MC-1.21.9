@@ -1,3 +1,3 @@
-tellraw @a {"text":"[CoreBound:Magnet] NEW RECIPES - search recipe book with #CoreBound","color":"green"}
+tellraw @a [{"sprite":"item/echo_shard"},{"text":" [CoreBound:Magnet]","color":"green"}]
 
 schedule function magnet:tick 1t

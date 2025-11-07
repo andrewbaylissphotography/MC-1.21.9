@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:beacon"
+		},
+		"title": "CoreBound",
+		"frame": "challenge",
+		"description": [
+			"",
+			{
+				"text": "All loaded CoreBound data packs\n",
+				"color": "gold"
+			},
+			{
+				"text": "github.com/andrewbaylissphotography/MC-1.21.9",
+				"color": "yellow"
+			}
+		],
+		"background": "minecraft:block/black_concrete",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
