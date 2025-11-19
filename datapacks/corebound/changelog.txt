@@ -1,0 +1,8 @@
+20251117
+    added /reload to corebound:setup
+
+20251114
+    added load.json to show this module is loaded.
+
+20251111
+    created this module to enable minecraft DataVersion detection.

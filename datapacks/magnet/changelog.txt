@@ -1,0 +1,13 @@
+20251116
+    added support for 1.21.10
+    allowed magnet to work in Offhand
+    Offhand breaks VanillaTweaks Timber DP
+
+20251110
+    datapack enabled text was not loading in versions before 1.21.9
+    magnet recipce was not loadin in versions before 1.21.9
+        fixed both by creating a DataVersion detection for 1.21.6
+
+20251109
+    standardised text
+        datapacks\magnet\data\magnet\function\load.mcfunction

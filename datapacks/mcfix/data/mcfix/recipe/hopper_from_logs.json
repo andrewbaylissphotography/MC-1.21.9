@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"C": "#minecraft:logs",
+		"I": "minecraft:iron_ingot"
+	},
+	"pattern": [
+		"ICI",
+		"ICI",
+		" I "
+	],
+	"result": {
+		"id": "minecraft:hopper",
+		"count": 1
+	}
+}

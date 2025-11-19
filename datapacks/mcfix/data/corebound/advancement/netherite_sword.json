@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:netherite_sword"
+		},
+		"title": "minecraft:netherite_sword",
+		"description": [
+			"",
+			{
+				"text": "Netherite Upgrade + Diamond Sword + Netherite Ingot",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:smithingtable",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

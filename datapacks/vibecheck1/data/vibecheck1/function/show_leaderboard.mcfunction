@@ -1,0 +1,5 @@
+tellraw @a [{"text":"[Vibe Leaderboard] Top 3:\n","color":"gold"},{"text":"#1: ","color":"white"},{"selector":"@a[tag=top1]","color":"aqua","separator":", "},{"text":" - ","color":"yellow"},{"score":{"name":"@a[tag=top1]","objective":"VibecheckRewardRoll"},"color":"green"},{"text":"%\n","color":"yellow"},{"text":"#2: ","color":"white"},{"selector":"@a[tag=top2]","color":"aqua","separator":", "},{"text":" - ","color":"yellow"},{"score":{"name":"@a[tag=top2]","objective":"VibecheckRewardRoll"},"color":"green"},{"text":"%\n","color":"yellow"},{"text":"#3: ","color":"white"},{"selector":"@a[tag=top3]","color":"aqua","separator":", "},{"text":" - ","color":"yellow"},{"score":{"name":"@a[tag=top3]","objective":"VibecheckRewardRoll"},"color":"green"},{"text":"%","color":"yellow"}]
+
+# Reset the trigger so it can be used again
+scoreboard players set @a[scores={vibeleaderboard=1..}] vibeleaderboard 0
+scoreboard players enable @a[scores={vibeleaderboard=0..}] vibeleaderboard

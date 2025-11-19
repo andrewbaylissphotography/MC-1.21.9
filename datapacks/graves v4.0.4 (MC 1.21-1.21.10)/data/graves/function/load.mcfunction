@@ -1,3 +1,5 @@
+tellraw @a {"text":"[VanillaTweaks] Graves","color":"green"}
+
 scoreboard objectives add graves.config dummy
 scoreboard objectives add graves.dummy dummy
 scoreboard objectives add graves.deaths minecraft.custom:minecraft.deaths
@@ -19,4 +21,4 @@ execute unless data storage graves:main players run data modify storage graves:m
 schedule function graves:schedule_1s 10
 function graves:update_allow_locating
 
-tellraw @a {"text":"[VanillaTweaks] Graves","color":"green"}
+

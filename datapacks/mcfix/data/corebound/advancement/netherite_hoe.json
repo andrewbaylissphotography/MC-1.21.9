@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:netherite_hoe"
+		},
+		"title": "minecraft:netherite_hoe",
+		"description": [
+			"",
+			{
+				"text": "Netherite Upgrade + Diamond Hoe + Netherite Ingot",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:smithingtable",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

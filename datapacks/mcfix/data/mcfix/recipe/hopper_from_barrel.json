@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"C": "minecraft:barrel",
+		"I": "minecraft:iron_ingot"
+	},
+	"pattern": [
+		"I I",
+		"ICI",
+		" I "
+	],
+	"result": {
+		"id": "minecraft:hopper",
+		"count": 1
+	}
+}

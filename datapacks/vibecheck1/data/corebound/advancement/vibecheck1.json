@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cake"
+		},
+		"title": "vibe_check",
+		"description": [
+			"",
+			{
+				"text": "trigger vibecheck to get a random roll betweek 0 and 100",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

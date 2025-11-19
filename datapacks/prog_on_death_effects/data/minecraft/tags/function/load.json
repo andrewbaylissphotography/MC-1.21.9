@@ -1,0 +1,6 @@
+{
+  "values": [
+    "on_death_effects:setup",
+    "on_death_effects:load"
+  ]
+}

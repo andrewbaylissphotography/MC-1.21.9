@@ -1,0 +1,6 @@
+20251109
+    added advancements
+        datapacks\quality\data\corebound\advancement\uncommon.json
+        datapacks\quality\data\corebound\advancement\rare.json
+        datapacks\quality\data\corebound\advancement\epic.json
+        datapacks\quality\data\corebound\advancement\legendary.json
