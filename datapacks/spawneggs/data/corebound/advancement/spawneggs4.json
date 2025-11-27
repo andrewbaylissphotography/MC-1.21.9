@@ -1,20 +1,20 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:netherite_sword"
+			"id": "minecraft:zombie_spawn_egg"
 		},
-		"title": "minecraft:netherite_sword",
+		"title": "zombie_spawn_egg",
 		"description": [
 			"",
 			{
-				"text": "Netherite Upgrade + Diamond Sword + Netherite Ingot",
+				"text": "zombie_spawn_egg",
 				"color": "green"
 			}
 		],
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "corebound:smithingtable",
+	"parent": "corebound:spawneggs3",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

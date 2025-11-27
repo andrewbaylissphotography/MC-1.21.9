@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:blaze_spawn_egg"
+		},
+		"title": "blaze_spawn_egg",
+		"description": [
+			"",
+			{
+				"text": "blaze_spawn_egg",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:spawneggs4",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

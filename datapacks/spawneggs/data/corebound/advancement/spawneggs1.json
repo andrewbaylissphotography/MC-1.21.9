@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spider_spawn_egg"
+		},
+		"title": "spider_spawn_egg",
+		"description": [
+			"",
+			{
+				"text": "spider_spawn_egg",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:spawneggs",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

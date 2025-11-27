@@ -3,6 +3,14 @@
 
 # Java Edition 1.21.10 - 4556
 execute if score #ver mc_ver matches 4556 run function corebound:v1_21_9
+execute if score #ver mc_ver matches 4556 run function gm3nightvision:v1_21_9
+execute if score #ver mc_ver matches 4556 run function magnet:v1_21_9
+execute if score #ver mc_ver matches 4556 run function mcfix:v1_21_9
+execute if score #ver mc_ver matches 4556 run function mobbars:v1_21_9
+execute if score #ver mc_ver matches 4556 run function newbie:v1_21_9
+execute if score #ver mc_ver matches 4556 run function spawneggs:v1_21_9
+
+
 
 # Java Edition 1.21.9 - 4554
 execute if score #ver mc_ver matches 4554 run function corebound:v1_21_9

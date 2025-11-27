@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:blue_egg"
+		},
+		"title": "Spawn Eggs",
+		"description": [
+			"",
+			{
+				"text": "1% chance and every 200 mob kills to get its spawn egg",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

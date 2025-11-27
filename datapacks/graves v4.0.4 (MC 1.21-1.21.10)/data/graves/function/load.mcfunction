@@ -1,5 +1,3 @@
-tellraw @a {"text":"[VanillaTweaks] Graves","color":"green"}
-
 scoreboard objectives add graves.config dummy
 scoreboard objectives add graves.dummy dummy
 scoreboard objectives add graves.deaths minecraft.custom:minecraft.deaths
@@ -18,7 +16,8 @@ scoreboard players add $despawn_seconds graves.config 0
 scoreboard players reset * graves.deaths
 execute store result score $tick_id graves.dummy store result storage graves:main tick_id int 1.0 run data get storage graves:main tick_id
 execute unless data storage graves:main players run data modify storage graves:main players set value []
+
+tellraw @a {"text":"[VanillaTweaks] Graves","color":"green"}
+
 schedule function graves:schedule_1s 10
 function graves:update_allow_locating
-
-

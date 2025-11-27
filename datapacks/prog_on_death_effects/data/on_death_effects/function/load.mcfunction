@@ -35,4 +35,5 @@ execute if score #ver mc_ver matches 3955 run function on_death_effects:v1_21_6
 execute if score #ver mc_ver matches 3953 run function on_death_effects:v1_21_6
 
 # fallback
+execute unless score #ver mc_ver matches 1.. run tellraw @a [{"text":" [CoreBound: Respawn Buff] ERROR: System Module datapack is missing!","color":"red"},"\n",{"text":"DOWNLOAD","underlined":true,"color":"#0091ff","click_event":{"action":"open_url","url":"https://www.curseforge.com/minecraft/data-packs/corebound-system"},"hover_event":{"action":"show_text","value":"download system module from Curseforge"}}," Corebound:System"]
 execute unless score #ver mc_ver matches 3953..4556 run tellraw @a [{"text":" [CoreBound: Respawn Buff] Unsupported Version - Use 1.21 to 1.21.10","color":"red"}]

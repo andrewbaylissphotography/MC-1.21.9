@@ -1,3 +1,6 @@
+20251127
+    dependency added - CoreBound:System
+
 2025117
     1.21.10-recipe: rotten flesh to leather confirmed working
     1.21.10-recipe: added string recipe. #minecraft:wool can now be turned into string. that string is turned into white wool.
@@ -8,10 +11,6 @@
     1.21.10-recipe: barrels interchangable with chests. affects the following recipes:
         hopper
     1.21.10-advancement: added groups for new recipies based on block used. crafting,smithing,furnace.
-
-2021112
     changed name from "Corebound Vanilla Fixes" to "Corebound Recipes" - curseforge no longer allows names with vanilla, vanillia+ or vanilla enhanced
     added advancement for the raw block to block smelting
-
-20251111
     added version detection

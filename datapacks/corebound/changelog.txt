@@ -1,3 +1,7 @@
+20251125
+    added unload.json
+    setup corebound:system as a dependancy for other corebound modules.
+
 20251117
     added /reload to corebound:setup
 

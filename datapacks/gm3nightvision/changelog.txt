@@ -1,3 +1,6 @@
+20251127
+    dependency added - CoreBound:System
+
 20251110
     datapack enabled text was not loading in versions before 1.21.9
         fixed by creating a DataVersion detection for 1.21.6

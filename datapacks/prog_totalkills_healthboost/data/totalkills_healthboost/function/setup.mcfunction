@@ -1,5 +1,7 @@
 scoreboard objectives add hostilekills minecraft.custom:minecraft.mob_kills
 scoreboard objectives add absorpCycle dummy
+scoreboard objectives add EffectReapply dummy
+
 say [totalkills_healthboost] Setup complete!
 
 # run statprogression

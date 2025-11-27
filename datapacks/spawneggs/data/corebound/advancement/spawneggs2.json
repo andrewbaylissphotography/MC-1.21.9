@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:skeleton_spawn_egg"
+		},
+		"title": "skeleton_spawn_egg",
+		"description": [
+			"",
+			{
+				"text": "skeleton_spawn_egg",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:spawneggs1",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

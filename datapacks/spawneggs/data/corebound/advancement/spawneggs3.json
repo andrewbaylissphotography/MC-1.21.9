@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:magma_cube_spawn_egg"
+		},
+		"title": "magma_cube_spawn_egg",
+		"description": [
+			"",
+			{
+				"text": "magma_cube_spawn_egg",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:spawneggs2",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

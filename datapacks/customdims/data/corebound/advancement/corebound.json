@@ -1,20 +1,20 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:iron_block"
+			"id": "minecraft:command_block_minecart"
 		},
-		"title": "Iron Block",
+		"title": "System",
 		"description": [
 			"",
 			{
-				"text": "smelt RAW iron blocks!",
+				"text": "version detection logic",
 				"color": "green"
 			}
 		],
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "corebound:smelting",
+	"parent": "corebound:root",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

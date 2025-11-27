@@ -1,20 +1,20 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:netherite_hoe"
+			"id": "minecraft:netherite_pickaxe"
 		},
-		"title": "minecraft:netherite_hoe",
+		"title": "minecraft:netherite_pickaxe",
 		"description": [
 			"",
 			{
-				"text": "Netherite Upgrade + Diamond Hoe + Netherite Ingot",
+				"text": "Netherite Upgrade + Diamond Pickaxe + Netherite Ingot",
 				"color": "green"
 			}
 		],
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "corebound:smithingtable",
+	"parent": "corebound:smithingtable2",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

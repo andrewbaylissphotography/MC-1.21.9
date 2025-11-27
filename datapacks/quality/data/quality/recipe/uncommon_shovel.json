@@ -22,7 +22,7 @@
         [{"text":" 8.25 Attack Damage","italic":false,"color":"dark_green"}],
         [{"text":"  Base +6.5 | Quality +1 | +10%","italic":false,"color":"dark_green"}],
         [{"text":" 2.20 Attack Speed","italic":false,"color":"dark_green"}],
-        [{"text":"  Base +1.0 | Quality +1 | +10%","italic":false,"color":"dark_green"}],
+        [{"text":"  Base +1 | Quality +1 | +10%","italic":false,"color":"dark_green"}],
         [{"text":"Altar Reward","color":"dark_purple"}],
         [{"text":"#CoreBound","color":"gray"}]
       ],

@@ -1,0 +1,7 @@
+20251127
+    dependency added - CoreBound:System
+
+20251125
+    added warden to whitelist. it has 500 health
+    added witch to whitelist. it has 26 health
+    added scoreboard players reset @e[distance=16..] to remove entities from scoreboard. dont need to track them if no player is near
