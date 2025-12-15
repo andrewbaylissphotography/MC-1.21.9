@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:player_mined_block",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "excavator:mine_block_at"
+  }
+}

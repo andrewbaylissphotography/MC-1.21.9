@@ -7,6 +7,8 @@ execute as @e[type=villager,tag=!mobHealth] at @s if entity @p[distance=..16] ru
 execute as @e[type=creeper,tag=!mobHealth] at @s if entity @p[distance=..16] run tag @s add mobHealth
 execute as @e[type=warden,tag=!mobHealth] at @s if entity @p[distance=..16] run tag @s add mobHealth
 execute as @e[type=witch,tag=!mobHealth] at @s if entity @p[distance=..16] run tag @s add mobHealth
+execute as @e[type=enderman,tag=!mobHealth] at @s if entity @p[distance=..16] run tag @s add mobHealth
+
 
 execute as @e at @s if entity @p[distance=17..] run tag @s remove mobHealth
 

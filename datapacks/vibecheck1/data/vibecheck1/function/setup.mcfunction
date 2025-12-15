@@ -19,4 +19,3 @@ data modify entity @e[type=minecraft:text_display,limit=1,tag=vibes_title] text 
 execute unless entity @e[tag=vibes_rank_1,type=text_display] run summon text_display ~ ~2 ~ {text:'{"text":"#1 Loading leaderboard..."}',billboard:"vertical",background:0,shadow:true,see_through:false,Tags:["vibes_rank_1"]}
 execute unless entity @e[tag=vibes_rank_2,type=text_display] run summon text_display ~ ~1.5 ~ {text:'{"text":"#2 Loading leaderboard..."}',billboard:"vertical",background:0,shadow:true,see_through:false,Tags:["vibes_rank_2"]}
 execute unless entity @e[tag=vibes_rank_3,type=text_display] run summon text_display ~ ~1 ~ {text:'{"text":"#3 Loading leaderboard..."}',billboard:"vertical",background:0,shadow:true,see_through:false,Tags:["vibes_rank_3"]}
-

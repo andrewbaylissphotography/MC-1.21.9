@@ -1,3 +1,6 @@
+20251213
+    added datapack images for each recipe.
+
 20251127
     dependency added - CoreBound:System
 

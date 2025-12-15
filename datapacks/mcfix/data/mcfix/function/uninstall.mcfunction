@@ -23,4 +23,6 @@ recipe take @a mcfix:logs_to_sticks
 recipe take @a mcfix:rotten_flesh_to_leather_furnace
 recipe take @a mcfix:wool_to_string
 
+recipe take @a mcfix:gunpowder
+
 tellraw @a [{"text":"[CoreBound: Recipes] Uninstalled cleanly.","color":"yellow"}]

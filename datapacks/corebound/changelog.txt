@@ -1,3 +1,6 @@
+20251212
+    added 1.21.11 compatability
+
 20251125
     added unload.json
     setup corebound:system as a dependancy for other corebound modules.

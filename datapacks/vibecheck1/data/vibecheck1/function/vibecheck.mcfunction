@@ -32,4 +32,3 @@ data modify entity @e[type=minecraft:text_display,limit=1,tag=vibes_rank_3] text
 # --- RESET TRIGGER ---
 scoreboard players set @a[scores={vibecheck=1..}] vibecheck 0
 scoreboard players enable @a[scores={vibecheck=0..}] vibecheck
-

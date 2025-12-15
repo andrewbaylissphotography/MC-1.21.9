@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:gunpowder"
+		},
+		"title": "minecraft:gunpowder",
+		"description": [
+			"",
+			{
+				"text": "gunpowder from bonemeal, #coals & flint",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:craftingtable",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

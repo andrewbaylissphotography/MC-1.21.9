@@ -15,4 +15,6 @@ recipe give @a mcfix:logs_to_sticks
 recipe give @a mcfix:rotten_flesh_to_leather_furnace
 recipe give @a mcfix:wool_to_string
 
+recipe give @a mcfix:gunpowder
+
 tellraw @a [{"text":" [CoreBound: Recipes]","color":"green"}]

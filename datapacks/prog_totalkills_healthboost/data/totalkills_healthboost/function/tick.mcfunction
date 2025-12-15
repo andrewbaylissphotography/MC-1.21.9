@@ -52,7 +52,7 @@ execute as @a[scores={hostilekills=200}] run title @s actionbar [{"text":"Killed
 scoreboard players operation @a[scores={hostilekills=1..}] EffectReapply = @s hostilekills
 
 # Trigger effects if EffectReapply reached 1000
-execute as @a[scores={EffectReapply=1000..}] title @s actionbar [{"text":"absorption, regeneration & saturation refilled","color":"gold"}]
+execute as @a[scores={EffectReapply=1000..}] run title @s actionbar [{"text":"absorption, regeneration & saturation refilled","color":"gold"}]
 execute as @a[scores={EffectReapply=1000..}] run effect give @s minecraft:absorption infinite 9 true
 execute as @a[scores={EffectReapply=1000..}] run effect give @s minecraft:regeneration 10 4 true
 execute as @a[scores={EffectReapply=1000..}] run effect give @s minecraft:saturation 10 4 true
