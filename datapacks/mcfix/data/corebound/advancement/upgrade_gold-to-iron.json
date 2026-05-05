@@ -1,20 +1,20 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:echo_shard"
+			"id": "minecraft:iron_block"
 		},
-		"title": "Magnet",
+		"title": "minecraft:iron_block",
 		"description": [
 			"",
 			{
-				"text": "Pick up items and exp in a 5 block range",
+				"text": "golden tools or armor can upgraded to iron",
 				"color": "green"
 			}
 		],
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "corebound:root",
+	"parent": "corebound:smithingtable",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

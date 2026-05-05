@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": "God Set Bonus",
+		"description": [
+			"",
+			{
+				"text": "get effects when each part of the set is equiped.",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

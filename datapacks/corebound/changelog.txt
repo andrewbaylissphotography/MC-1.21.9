@@ -1,3 +1,6 @@
+20260504
+    added 26, 26.1 & 26.1.2 compatability
+
 20251212
     added 1.21.11 compatability
 

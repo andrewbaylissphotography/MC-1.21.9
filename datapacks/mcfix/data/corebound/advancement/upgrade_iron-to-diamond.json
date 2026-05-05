@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_block"
+		},
+		"title": "minecraft:diamond_block",
+		"description": [
+			"",
+			{
+				"text": "iron tools or armor can upgraded to diamond",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:upgrade_gold-to-iron",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

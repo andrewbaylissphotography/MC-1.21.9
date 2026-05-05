@@ -4,6 +4,7 @@
     "altar:load",
     "upgrade:load",
     "references:give_command_book",
-    "magnet:load"
+    "magnet:load",
+    "magic:load"
   ]
 }

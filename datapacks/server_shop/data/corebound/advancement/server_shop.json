@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:emerald"
+		},
+		"title": "server_shop",
+		"description": [
+			"",
+			{
+				"text": "Sell items to server to get coin",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

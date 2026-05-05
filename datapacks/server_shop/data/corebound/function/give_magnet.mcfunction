@@ -1,1 +1,0 @@
-give @a minecraft:echo_shard[lore=["just like modded",{"text":"#CoreBound","color":"gray"}],item_name=[{"text":"Magnet","color":"yellow"}],enchantment_glint_override=true]
