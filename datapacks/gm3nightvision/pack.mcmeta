@@ -1,21 +1,22 @@
 {
 	"pack": {
-		"pack_format": 48,
+		"pack_format": 101,
 		"supported_formats": {
 			"min_inclusive": 48,
-			"max_inclusive": 94
+			"max_inclusive": 101
 		},
 		"description": [
 			{
 				"text": "CoreBound:Spectator Nightvision",
-				"color": "gold"
-			},
-			{
-				"text": "\ngithub.com/andrewbaylissphotography/MC-1.21.9",
-				"color": "yellow"
-			}
-		],
-		"min_format": 48,
-		"max_format": 94
-	}
+                "color": "gold",
+                "type": "",
+                "click_event": {
+                    "action": "open_url",
+                    "url": "https://github.com/andrewbaylissphotography/MC-1.21.9/tree/main/datapacks/gm3nightvision"
+                }
+            }
+        ],
+        "min_format": 48,
+        "max_format": 101
+    }
 }
