@@ -1,6 +1,6 @@
-# CoreBound Magnet
+# CoreBound Live Stream Status
 
-adds a magnet this pulls items towards the player. as seen in many modded packs but in a vanilla datapack.
+adds a player controlled trigger to set player prefix to [Live]. shows in tab and chat
 
 ## Development Notes
 Some ideas and programming assistance were generated with the help of AI tools (ChatGPT) for briainstorming and function logic. All code was tested, intergrated and reviewed manually. 
@@ -13,3 +13,4 @@ https://www.gamergeeks.net/apps/minecraft
 https://misode.github.io/
 
 https://chatgpt.com/
+
