@@ -1,1 +1,4 @@
+# uncomment for verbose
+ tellraw @a {"text":"newbie_set_bonus - give_dwarven_template.mcfunction","color":"yellow"}
+
 give @p netherite_scrap[lore=[[{"text":"Apply Dwarven Set 1 to an item.","italic":false}],[{"text":"1 piece: ","italic":false,"color":"gray"},{"text":"Luck","italic":false,"color":"dark_green"}],[{"text":"2 piece: ","italic":false,"color":"gray"},{"text":"Speed","italic":false,"color":"dark_green"}],[{"text":"3 piece: ","italic":false,"color":"gray"},{"text":"Regen","italic":false,"color":"dark_green"}],[{"text":"4 piece: ","italic":false,"color":"gray"},{"text":"Resistance","italic":false,"color":"dark_green"}]],item_name=[{"text":"Dwarven Template","italic":false,"color":"gold"}],enchantment_glint_override=true]

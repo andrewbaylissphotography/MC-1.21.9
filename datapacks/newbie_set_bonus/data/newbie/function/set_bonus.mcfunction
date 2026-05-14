@@ -1,6 +1,13 @@
+# uncomment for verbose
+ tellraw @a {"text":"newbie_set_bonus - set_bonus.mcfunction","color":"yellow"}
+
 # datapacks\newbie_set_bonus\data\newbie\function\setbonus.mcfunction
 # called by:
 #   datapacks\newbie_set_bonus\data\newbie\function\load.mcfunction
+
+# First join setup
+execute as @a[tag=!newbie_init] run function newbie:first_join
+
 
 # Reset score each tick
 scoreboard players set @a newbieSet 0

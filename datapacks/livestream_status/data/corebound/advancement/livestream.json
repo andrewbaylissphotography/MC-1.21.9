@@ -1,13 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:conduit_power"
+			"id": "minecraft:ender_eye"
 		},
 		"title": "Live Stream Status",
 		"description": [
 			"",
 			{
-				"text": "shows other players that you are currently st",
+				"text": "shows other players that you are currently streaming",
 				"color": "green"
 			}
 		],

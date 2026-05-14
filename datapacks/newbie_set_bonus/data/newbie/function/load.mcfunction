@@ -1,1 +1,6 @@
+scoreboard objectives add newbieSet dummy
+scoreboard objectives add temp dummy
+
 execute unless data storage corebound:core loaded run tellraw @a [{"text":" [CoreBound: Newbie Set] ERROR: System Module datapack is missing!","color":"red"},"\n",{"text":"DOWNLOAD","underlined":true,"color":"#0091ff","click_event":{"action":"open_url","url":"https://www.curseforge.com/minecraft/data-packs/corebound-system"},"hover_event":{"action":"show_text","value":"download system module from Curseforge"}}," Corebound:System"]
+
+function newbie:set_bonus

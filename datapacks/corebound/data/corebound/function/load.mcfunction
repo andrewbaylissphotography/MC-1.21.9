@@ -8,6 +8,7 @@ execute if score #ver mc_ver matches 4790 run function gm3nightvision:v1_21_9
 execute if score #ver mc_ver matches 4790 run function magnet:v1_21_11
 execute if score #ver mc_ver matches 4790 run function newbie:v1_21_11
 execute if score #ver mc_ver matches 4790 run function mobbars:v1_21_9
+execute if score #ver mc_ver matches 4790 run function livestream_status:load
 
 #Java Edition 26.1.1 - 4788
 execute if score #ver mc_ver matches 4788 run function corebound:v1_21_11
