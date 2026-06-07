@@ -1,3 +1,6 @@
+20260607
+    refactored version detection to only change when code changes rather that each MC version change.
+
 20260504
     added 26, 26.1 & 26.1.2 compatability
 

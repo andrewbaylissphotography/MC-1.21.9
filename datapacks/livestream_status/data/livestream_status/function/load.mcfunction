@@ -6,4 +6,4 @@ team add --LIVE--
 team modify --LIVE-- prefix {"text":"🔴 ","color":"red","bold":true}
 
 # debug check
-tellraw @a {"text":"datapack: livestream-status LOADED","color":"yellow"}
+tellraw @a [{"text":" [CoreBound: Live Stream]","color":"green"}]

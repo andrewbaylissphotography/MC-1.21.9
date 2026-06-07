@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##*",
+    "#+ ",
+    "##0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ingot"
+    },
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "+": {
+      "item": "minecraft:ender_pearl"
+    },
+    "*": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1,
+    "components": {
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:item_name": "\"Magnet\"",
+      "minecraft:lore": [
+        "\"Just like modded\"",
+        "\"#CoreBound\""
+      ]
+    }
+  }
+}

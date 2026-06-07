@@ -1,0 +1,6 @@
+20260530
+	created smelting datapack for:
+		raw copper blocks into copper block
+		raw iron blocks into iron block
+		raw gold blocks into gold block
+		rotten flesh into leather

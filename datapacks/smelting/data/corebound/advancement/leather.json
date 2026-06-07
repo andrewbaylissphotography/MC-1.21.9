@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:leather"
+		},
+		"title": "minecraft:leather",
+		"description": [
+			"",
+			{
+				"text": "cook rotten flesh into leather",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:smelting",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

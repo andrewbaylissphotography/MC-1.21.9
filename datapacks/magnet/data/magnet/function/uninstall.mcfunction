@@ -7,7 +7,7 @@
 # Cancel any scheduled Core functions
 schedule clear magnet:tick
 
-# Remove custon recipes
+# Remove custom recipes
 recipe take @a magnet:v1_21_6/magnet
 recipe take @a magnet:v1_21_9/magnet
 

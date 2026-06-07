@@ -1,2 +1,5 @@
+20260607
+    formatted verbose test to match rest of corebound
+
 20260507
     created live-stream-status

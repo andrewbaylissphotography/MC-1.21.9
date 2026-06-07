@@ -9,4 +9,5 @@ data modify storage corebound:core loaded set value 1
 
 tellraw @a [  "",  {"text": "[Corebound] ", "color": "gold"},  {"text": "Set DataVersion to ", "color": "yellow"},  {"score": {"name": "#ver", "objective": "mc_ver"}, "color": "aqua"}]
 
-function corebound:load
+#function corebound:load
+function corebound:load_new

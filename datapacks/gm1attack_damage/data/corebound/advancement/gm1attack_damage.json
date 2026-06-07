@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:netherite_sword",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:gm1attack_damage"
+				}
+			}
+		},
+		"title": "Creative Max Attack",
+		"description": [
+			"",
+			{
+				"text": "Grants Creative Instant Kill Damamge",
+				"color": "green"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "corebound:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

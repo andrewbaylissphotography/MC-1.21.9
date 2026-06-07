@@ -1,0 +1,2 @@
+20260514
+	added creative damage increase to allow insta-delete of mobs. creative not to be used by non-admins.
