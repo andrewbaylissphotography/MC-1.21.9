@@ -1,3 +1,0 @@
-20251125
-    correct the absortion apply to check for already applied effect. so the same effect level is not constanly applied.
-    added actionbar notifaction to show MAX_HEALTH has increased.

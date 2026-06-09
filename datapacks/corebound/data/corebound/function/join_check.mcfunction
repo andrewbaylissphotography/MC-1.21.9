@@ -1,0 +1,1 @@
+execute if score #ver mc_ver matches 3953.. run execute as @a[tag=!corebound.init] run function corebound:join_true

@@ -7,16 +7,8 @@
 # Cancel any scheduled CoreBound: Recipes functions
 
 # Remove custom recipes
-recipe take @a smelting:raw_copper_block_blastfurnce
-recipe take @a smelting:raw_copper_block_furnace
-
-recipe take @a smelting:raw_gold_block_blastfurnce
-recipe take @a smelting:raw_gold_block_furnace
-
-recipe take @a smelting:raw_iron_block_blastfurnce
-recipe take @a smelting:raw_iron_block_furnace
-
-recipe take @a smelting:rotten_flesh_to_leather_furnace
+function smelting:v1_21_0-take
+function smelting:v1_21_2-take
 
 
 tellraw @a [{"text":"[CoreBound: Smelting] Uninstalled cleanly.","color":"yellow"}]

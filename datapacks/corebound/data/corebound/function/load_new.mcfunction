@@ -32,8 +32,10 @@ execute if score #ver mc_ver matches 3953..3955 run function magnet:v1_21_0
 execute if score #ver mc_ver matches 3953..4790 run function livestream_status:load
 
 # smetling
-#1.21 - 26.1.2 (Lastest)
-execute if score #ver mc_ver matches 3953..4790 run function smelting:v1_21_0
+#1.21.2 - 26.1.2 (Lastest)
+execute if score #ver mc_ver matches 4080..4790 run function smelting:v1_21_2
+#1.21 - #1.21.1
+execute if score #ver mc_ver matches 3953..3955 run function smelting:v1_21_0
 
 
 # fallback
