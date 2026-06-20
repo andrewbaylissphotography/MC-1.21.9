@@ -6,7 +6,7 @@
 execute if score #ver mc_ver matches 4671..4790 run function corebound:v1_21_6
 #1.21.9 - 1.21.10
 execute if score #ver mc_ver matches 4554..4556 run function corebound:v1_21_9
-#1.21 - 1.21.8
+#1.21.0 - 1.21.8
 execute if score #ver mc_ver matches 3953..4440 run function corebound:v1_21_6
 
 # gm3nightvision
@@ -24,6 +24,8 @@ execute if score #ver mc_ver matches 4080..4189 run function magnet:v1_21_2
 execute if score #ver mc_ver matches 3953..3955 run function magnet:v1_21_0
 
 # newbie
+#1.21.0
+execute if score #ver mc_ver matches 3953.. run function 
 
 # mobbars
 
@@ -34,7 +36,7 @@ execute if score #ver mc_ver matches 3953..4790 run function livestream_status:l
 # smetling
 #1.21.2 - 26.1.2 (Lastest)
 execute if score #ver mc_ver matches 4080..4790 run function smelting:v1_21_2
-#1.21 - #1.21.1
+#1.21.0 - #1.21.1
 execute if score #ver mc_ver matches 3953..3955 run function smelting:v1_21_0
 
 

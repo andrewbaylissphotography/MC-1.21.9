@@ -2,14 +2,32 @@
 A vanilla Minecraft server built from 1.21.9 - The Copper Age with datapacks, custom systems, and server-wide effects.
 
 ## Features
-- Advancements: 
+- Corebound Advancements: 
     new features added to advancements so that you can see what Corebound module has loaded and what it adds.
 
-- Magnet: 
+- Corebound System
+    Its primary purpose is to provide a common framework for:
+    - Minecraft version detection
+    - First-join player initialization
+    - Shared storage values
+    - Global setup routines
+    - Datapack compatibility management
+    - Common uninstall procedures
+
+- Corebound Set Items
+    - Items now belong to sets. More items equiped from the set the more effects are active.
+    - effects refresh every 10 seconds
+        - Newbie Set (Leather Armour): 
+            - 1/4: Luck 1 
+            - 2/4: Speed 1 
+            - 3/4: Regeneration 1 
+            - 4/4: Resistance 1
+
+- Corebound Magnet: 
     - uses a custom named echo shard named "Magnet" 
     - pulls dropped items and experience orbs
 
-- Quality: 
+- Corebound Quality: 
     - tools and armour now have Quality Tiers
         - Uncommon
         - Rare
@@ -17,26 +35,29 @@ A vanilla Minecraft server built from 1.21.9 - The Copper Age with datapacks, cu
         - Legendary
     - search for "#CoreBound" in the recipe book
 
-- Vanilla Fix: 
-    - add smithing table recipces to the crafting table to tell you how to get netherite gear.
+- Corebound Smelting
     - added block of raw copper, block of raw iron, block of raw gold smelting into their block versions.
         - cook time is 9 time longer that raw pieces - 30 seconds cook time.
     - added rotten flesh to leather, furnace only
+
+- Vanilla Fix: 
+    - add smithing table recipces to the crafting table to tell you how to get netherite gear.
     - added wool to string. crafting table
     - logs to stick
     - logs to chest
     - logs used instead of chests in recipes where there is a empty slot
     - barrels interchangable with chests
 
-- Spectator Night Vision
+- Corebound Spectator Night Vision
     - by default player in spectator mode can not see dark areas. this module grants spectators nightvision
+        removed nightvision when out of spectator (gm3)
 
-- Custom Dimensions
+- Corebound Custom Dimensions
     - Spawn island
     - Altar island
     - Skyblock like player homes. /trigger sbhome
 
-- Respawn Buff
+- Corebound Respawn Buff
     - when a player gets killed, they recive 10 seconds of buffs to regain
 
 - Leaderboards
