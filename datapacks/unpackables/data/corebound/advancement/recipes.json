@@ -1,20 +1,20 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:iron_block"
+			"id": "minecraft:knowledge_book"
 		},
-		"title": "Iron Block",
+		"title": "Recipes",
 		"description": [
 			"",
 			{
-				"text": "smelt RAW iron blocks!",
+				"text": "recipes from the corebound datapack",
 				"color": "green"
 			}
 		],
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "corebound:smelting",
+	"parent": "corebound:root",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

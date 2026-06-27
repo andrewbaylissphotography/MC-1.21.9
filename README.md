@@ -5,7 +5,7 @@ A vanilla Minecraft server built from 1.21.9 - The Copper Age with datapacks, cu
 - Corebound Advancements: 
     new features added to advancements so that you can see what Corebound module has loaded and what it adds.
 
-- Corebound System
+- Corebound System:
     Its primary purpose is to provide a common framework for:
     - Minecraft version detection
     - First-join player initialization
@@ -14,7 +14,7 @@ A vanilla Minecraft server built from 1.21.9 - The Copper Age with datapacks, cu
     - Datapack compatibility management
     - Common uninstall procedures
 
-- Corebound Set Items
+- Corebound Set Items:
     - Items now belong to sets. More items equiped from the set the more effects are active.
     - effects refresh every 10 seconds
         - Newbie Set (Leather Armour): 
@@ -23,7 +23,8 @@ A vanilla Minecraft server built from 1.21.9 - The Copper Age with datapacks, cu
             - 3/4: Regeneration 1 
             - 4/4: Resistance 1
 
-- Corebound Magnet: 
+
+- Corebound Magnet: ![Spawn](datapacks/magnet/media/magnet.png)
     - uses a custom named echo shard named "Magnet" 
     - pulls dropped items and experience orbs
 
@@ -40,39 +41,32 @@ A vanilla Minecraft server built from 1.21.9 - The Copper Age with datapacks, cu
         - cook time is 9 time longer that raw pieces - 30 seconds cook time.
     - added rotten flesh to leather, furnace only
 
-- Vanilla Fix: 
-    - add smithing table recipces to the crafting table to tell you how to get netherite gear.
-    - added wool to string. crafting table
-    - logs to stick
-    - logs to chest
-    - logs used instead of chests in recipes where there is a empty slot
-    - barrels interchangable with chests
+- Corebound Crafting
+    - added unpacking recipe for netherwart from netherwart block
 
-- Corebound Spectator Night Vision
+- Corebound Spectator Night Vision:
     - by default player in spectator mode can not see dark areas. this module grants spectators nightvision
-        removed nightvision when out of spectator (gm3)
 
-- Corebound Custom Dimensions
+- Corebound Custom Dimensions:
     - Spawn island
     - Altar island
     - Skyblock like player homes. /trigger sbhome
 
-- Corebound Respawn Buff
+- Corebound Respawn Buff:
     - when a player gets killed, they recive 10 seconds of buffs to regain
 
-- Leaderboards
+- Leaderboards:
     - Vibe leaderboard in chat and at spawn via text_display
 
-- Stat book
+- Stat book:
     - allows players to see what their attributes are
 
-- Player Auras
+- Player Auras:
     - beacon effects on a player
     - buffs other players but not you. other players buff you.
 
 - Resets of Overworld, Nether, and End
 - Contribution Altar
-- Item Sets: 4p Newbie set grants: Luck 1, Regen 1, Speed 1, Resistance 1
 
 - Currently uses several VanillaTweaks datapacks but will be replacing those with Corebound speficic funtions.
     - the VanillaTweaks datapacks are: 
@@ -91,7 +85,8 @@ A vanilla Minecraft server built from 1.21.9 - The Copper Age with datapacks, cu
 5. Contribute to CoreBound's evolution
 
 ## Development Notes
-Some ideas and programming assistance were generated with the help of AI tools (ChatGPT) for briainstorming and function logic. All code was tested, intergrated and reviewed manually. 
+AI tools were used for brainstorming, documentation help, and exploring possible function logic.
+All datapack functions, systems, and implementations were manually tested and reviewed.
 
 ## Resources
 https://vanillatweaks.net/

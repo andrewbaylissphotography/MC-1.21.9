@@ -1,2 +1,2 @@
 #1.21.6
-tellraw @a [{"text":" [CoreBound: System]","color":"green"}]
+#tellraw @a [{"text":" [CoreBound: System]","color":"green"}]

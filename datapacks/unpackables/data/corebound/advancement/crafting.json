@@ -1,20 +1,20 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:iron_block"
+			"id": "minecraft:crafting_table"
 		},
-		"title": "Iron Block",
+		"title": "Crafting",
 		"description": [
 			"",
 			{
-				"text": "smelt RAW iron blocks!",
+				"text": "new crafting recipes",
 				"color": "green"
 			}
 		],
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "corebound:smelting",
+	"parent": "corebound:recipes",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

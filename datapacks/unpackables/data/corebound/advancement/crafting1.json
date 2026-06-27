@@ -1,20 +1,20 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:iron_block"
+			"id": "minecraft:nether_wart"
 		},
-		"title": "Iron Block",
+		"title": "Nether Wart",
 		"description": [
 			"",
 			{
-				"text": "smelt RAW iron blocks!",
+				"text": "Unpack netherwart blocks into 9 nether wart",
 				"color": "green"
 			}
 		],
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "corebound:smelting",
+	"parent": "corebound:crafting",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"
