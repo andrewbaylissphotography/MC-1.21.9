@@ -24,7 +24,8 @@ A vanilla Minecraft server built from 1.21.9 - The Copper Age with datapacks, cu
             - 4/4: Resistance 1
 
 
-- Corebound Magnet: ![Spawn](datapacks/magnet/media/magnet.png)
+- Corebound Magnet: 
+![Magnet](datapacks/magnet/media/magnet.png)
     - uses a custom named echo shard named "Magnet" 
     - pulls dropped items and experience orbs
 
@@ -36,12 +37,17 @@ A vanilla Minecraft server built from 1.21.9 - The Copper Age with datapacks, cu
         - Legendary
     - search for "#CoreBound" in the recipe book
 
-- Corebound Smelting
+- Corebound Smelting: 
+![CopperBlock](datapacks/smelting/media/raw_copper_block_furnace.png)
+![IronBlock](datapacks/smelting/media/raw_iron_block_furnace.png)
+![GoldBlock](datapacks/smelting/media/raw_gold_block_furnace.png)
+![Leather](datapacks/smelting/media/rotten_flesh_to_leather_furnace.png)
     - added block of raw copper, block of raw iron, block of raw gold smelting into their block versions.
         - cook time is 9 time longer that raw pieces - 30 seconds cook time.
     - added rotten flesh to leather, furnace only
 
-- Corebound Crafting
+- Corebound Crafting:
+![Netherwart](datapacks/unpackables/media/nether_wart_block_to_nether_wart_craftingtable.png)
     - added unpacking recipe for netherwart from netherwart block
 
 - Corebound Spectator Night Vision:
