@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:iron_chestplate",
+  "addition": "minecraft:diamond_block",
+  "template": "minecraft:book",
+  "result": {
+    "id": "minecraft:diamond_chestplate",
+    "count": 1
+  }
+}

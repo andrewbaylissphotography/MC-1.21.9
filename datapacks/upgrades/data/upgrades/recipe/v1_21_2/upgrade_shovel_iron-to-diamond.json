@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:iron_shovel",
+  "addition": "minecraft:diamond_block",
+  "template": "minecraft:book",
+  "result": {
+    "id": "minecraft:diamond_shovel",
+    "count": 1
+  }
+}

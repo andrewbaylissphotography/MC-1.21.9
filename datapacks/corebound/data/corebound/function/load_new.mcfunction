@@ -36,14 +36,21 @@ execute if score #ver mc_ver matches 3953..4790 run function livestream_status:l
 # smetling
 #1.21.2 - 26.1.2 (Lastest)
 execute if score #ver mc_ver matches 4080..4790 run function smelting:v1_21_2
-#1.21.0 - #1.21.1
+#1.21.0 - 1.21.1
 execute if score #ver mc_ver matches 3953..3955 run function smelting:v1_21_0
 
 # unpackables
 #1.21.2 - 26.1.2 (Lastest)
 execute if score #ver mc_ver matches 4080..4790 run function unpackables:v1_21_2
-#1.21.0 - #1.21.1
+#1.21.0 - 1.21.1
 execute if score #ver mc_ver matches 3953..3955 run function unpackables:v1_21_0
+
+# upgrades
+#1.21.2 - 26.1.2 (Lastest)
+execute if score #ver mc_ver matches 4080..4790 run function upgrades:v1_21_2
+#1.21.0 - 1.21.1
+execute if score #ver mc_ver matches 3953..3955 run function upgrades:v1_21_0
+
 
 # fallback
 execute unless score #ver mc_ver matches 3953..4790 run tellraw @a [{"text":" [CoreBound: System] Unsupported Version - Use 1.21 to 26.1.2 (SNAPSHOTS NOT SUPPORTED)","color":"red"}]

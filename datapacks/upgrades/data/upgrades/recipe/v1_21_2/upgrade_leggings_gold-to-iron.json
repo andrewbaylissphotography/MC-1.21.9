@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:golden_leggings",
+  "addition": "minecraft:iron_block",
+  "template": "minecraft:book",
+  "result": {
+    "id": "minecraft:iron_leggings",
+    "count": 1
+  }
+}
