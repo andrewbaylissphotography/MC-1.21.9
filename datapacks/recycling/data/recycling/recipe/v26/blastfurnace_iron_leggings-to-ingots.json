@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:blasting",
+    "group": "iron_ingot",
+    "category": "misc",
+    "cookingtime": 6300,
+    "experience": 6.3,
+    "ingredient": [
+        "minecraft:iron_leggings"
+    ],
+    "result": {
+        "id": "minecraft:iron_ingot",
+        "count": 7
+    }
+}

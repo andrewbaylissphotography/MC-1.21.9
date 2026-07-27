@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:blasting",
+    "group": "iron_ingot",
+    "category": "misc",
+    "cookingtime": 2700,
+    "experience": 2.7,
+    "ingredient": [
+        "minecraft:iron_pickaxe"
+    ],
+    "result": {
+        "id": "minecraft:iron_ingot",
+        "count": 3
+    }
+}

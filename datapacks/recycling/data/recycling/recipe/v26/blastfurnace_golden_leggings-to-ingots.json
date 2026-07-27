@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:blasting",
+    "group": "gold_ingot",
+    "category": "misc",
+    "cookingtime": 6300,
+    "experience": 6.3,
+    "ingredient": [
+        "minecraft:golden_leggings"
+    ],
+    "result": {
+        "id": "minecraft:gold_ingot",
+        "count": 7
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:blasting",
+    "group": "gold_ingot",
+    "category": "misc",
+    "cookingtime": 900,
+    "experience": 0.9,
+    "ingredient": [
+        "minecraft:golden_shovel"
+    ],
+    "result": {
+        "id": "minecraft:gold_ingot",
+        "count": 1
+    }
+}

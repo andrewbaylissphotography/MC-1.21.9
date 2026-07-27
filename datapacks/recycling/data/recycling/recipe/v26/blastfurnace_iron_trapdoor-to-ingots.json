@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:blasting",
+    "group": "iron_ingot",
+    "category": "misc",
+    "cookingtime": 3600,
+    "experience": 3.6,
+    "ingredient": [
+        "minecraft:iron_trapdoor"
+    ],
+    "result": {
+        "id": "minecraft:iron_ingot",
+        "count": 4
+    }
+}

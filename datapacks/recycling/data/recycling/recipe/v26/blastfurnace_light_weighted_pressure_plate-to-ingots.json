@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:blasting",
+    "group": "gold_ingot",
+    "category": "misc",
+    "cookingtime": 1800,
+    "experience": 1.8,
+    "ingredient": [
+        "minecraft:light_weighted_pressure_plate"
+    ],
+    "result": {
+        "id": "minecraft:gold_ingot",
+        "count": 2
+    }
+}

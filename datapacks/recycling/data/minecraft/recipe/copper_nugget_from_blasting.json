@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "group": "copper_nugget",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    "minecraft:copper_horse_armor",
+    "minecraft:copper_nautilus_armor"
+  ],
+  "result": {
+    "id": "minecraft:copper_nugget"
+  }
+}

@@ -12,8 +12,6 @@ ServerEvents.tags('item', event => {
 // ============================================================================
 
   const coreboundItems = [
-    'minecraft:echo_shard',
-
     // Leather armor - breakdown leather armor to leather using the stonecutter
     'minecraft:leather_helmet',
     'minecraft:leather_chestplate',
@@ -25,8 +23,16 @@ ServerEvents.tags('item', event => {
     'minecraft:iron_block',
     'minecraft:gold_block',
 
-    // Materials - cook rotten flesh
+    // cook rotten flesh
     'minecraft:leather',
+
+    // echo_shard now act as magnets. find or craft
+    'minecraft:echo_shard',
+
+    // recycling items to their metal components
+    'minecraft:iron_ingot',
+    'minecraft:gold_ingot',
+    'minecraft:iron_nugget',
 
     // unpackables - uncompress items back into their source
     'minecraft:nether_wart',

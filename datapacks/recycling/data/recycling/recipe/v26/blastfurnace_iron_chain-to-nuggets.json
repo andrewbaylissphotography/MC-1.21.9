@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:blasting",
+    "group": "iron_nugget",
+    "category": "misc",
+    "cookingtime": 1100,
+    "experience": 0.11,
+    "ingredient": [
+        "minecraft:iron_chain"
+    ],
+    "result": {
+        "id": "minecraft:iron_nugget",
+        "count": 11
+    }
+}
