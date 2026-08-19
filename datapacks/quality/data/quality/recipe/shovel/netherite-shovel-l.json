@@ -1,0 +1,69 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [["minecraft:barrier"]],
+    "result": {
+        "id": "minecraft:netherite_shovel",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Legendary Netherite Shovel",
+                "color": "gold",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    { "text": "Quality:", "italic": false, "color": "gray" },
+                    { "text": " ", "italic": false },
+                    { "text": "Legendary", "italic": false, "color": "gold" }
+                ],
+                [{ "text": "Altar Reward", "color": "dark_purple" }],
+                [{ "text": "#CoreBound", "color": "gray" }],
+                [{ "text": "", "color": "gray" }],
+                [{ "text": "When in Main Hand", "color": "gray" }],
+                [
+                    { "text": "14.7 Attack Damage", "italic": false, "color": "dark_green" }
+                ],
+                [
+                    { "text": "7 Attack Speed", "italic": false, "color": "dark_green" }
+                ]
+            ],
+            "minecraft:item_model": "sycthe-26_xx:netherite-shovel-l",
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:attack_damage",
+                    "id": "shovel_damage",
+                    "amount": 9.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": { "type": "hidden" }
+                },
+                {
+                    "type": "minecraft:attack_damage",
+                    "id": "shovel_percent",
+                    "amount": 0.4,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand",
+                    "display": { "type": "hidden" }
+                },
+                {
+                    "type": "minecraft:attack_speed",
+                    "id": "shovel_speed",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": { "type": "hidden" }
+                },
+                {
+                    "type": "minecraft:attack_speed",
+                    "id": "shovel_percent_speed",
+                    "amount": 0.4,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand",
+                    "display": { "type": "hidden" }
+                }
+            ]
+        }
+    }
+}

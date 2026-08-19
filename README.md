@@ -1,6 +1,12 @@
 # CoreBound
 A vanilla Minecraft server built from 1.21.9 - The Copper Age with datapacks, custom systems, and server-wide effects.
 
+## Resource Pack
+there is a resource pack that is required otherwise items will show as a black and purple checked block (no texture)
+
+Required for the following datatpacks:
+-Quality
+
 ## Features
 - Corebound Advancements: 
     new features added to advancements so that you can see what Corebound module has loaded and what it adds.

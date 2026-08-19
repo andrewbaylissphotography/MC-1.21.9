@@ -1,0 +1,69 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [["minecraft:barrier"]],
+    "result": {
+        "id": "minecraft:netherite_pickaxe",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Rare Netherite Pickaxe",
+                "color": "blue",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    { "text": "Quality:", "italic": false, "color": "gray" },
+                    { "text": " ", "italic": false },
+                    { "text": "Rare", "italic": false, "color": "blue" }
+                ],
+                [{ "text": "Altar Reward", "color": "dark_purple" }],
+                [{ "text": "#CoreBound", "color": "gray" }],
+                [{ "text": "", "color": "gray" }],
+                [{ "text": "When in Main Hand", "color": "gray" }],
+                [
+                    { "text": "9.6 Attack Damage", "italic": false, "color": "dark_green" }
+                ],
+                [
+                    { "text": "3.84 Attack Speed", "italic": false, "color": "dark_green" }
+                ]
+            ],
+            "minecraft:item_model": "sycthe-26_xx:netherite-pickaxe-r",
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:attack_damage",
+                    "id": "pickaxe_damage",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": { "type": "hidden" }
+                },
+                {
+                    "type": "minecraft:attack_damage",
+                    "id": "pickaxe_percent",
+                    "amount": 0.2,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand",
+                    "display": { "type": "hidden" }
+                },
+                {
+                    "type": "minecraft:attack_speed",
+                    "id": "pickaxe_speed",
+                    "amount": -0.8,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": { "type": "hidden" }
+                },
+                {
+                    "type": "minecraft:attack_speed",
+                    "id": "pickaxe_percent_speed",
+                    "amount": 0.2,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand",
+                    "display": { "type": "hidden" }
+                }
+            ]
+        }
+    }
+}
