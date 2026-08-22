@@ -1,0 +1,58 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [["minecraft:barrier"]],
+    "result": {
+        "id": "minecraft:netherite_leggings",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Epic Netherite Leggings",
+                "color": "light_purple",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    { "text": "Quality:", "italic": false, "color": "gray" },
+                    { "text": " ", "italic": false },
+                    { "text": "Epic", "italic": false, "color": "light_purple" }
+                ],
+                [{ "text": "" }],
+                [{ "text": "#CoreBound", "color": "gray" }]
+            ],
+            "minecraft:item_model": "corebound_rp:netherite-leggings-e",
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:max_damage": 971,
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:armor",
+                    "id": "leggings_armor",
+                    "amount": 9,
+                    "operation": "add_value",
+                    "slot": "legs"
+                },
+                {
+                    "type": "minecraft:armor_toughness",
+                    "id": "leggings_toughness",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "legs"
+                },
+                {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "leggings_knockback_resistance",
+                    "amount": 0.13,
+                    "operation": "add_value",
+                    "slot": "legs"
+                },
+                {
+                    "type": "minecraft:max_health",
+                    "id": "leggings_max_health",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "legs"
+                }
+            ]
+        }
+    }
+}

@@ -17,10 +17,10 @@
                     { "text": " ", "italic": false },
                     { "text": "Legendary", "italic": false, "color": "gold" }
                 ],
-                [{ "text": "Altar Reward", "color": "dark_purple" }],
+                [{ "text": "" }],
                 [{ "text": "#CoreBound", "color": "gray" }],
-                [{ "text": "", "color": "gray" }],
-                [{ "text": "When in Main Hand", "color": "gray" }],
+                [{ "text": "" }],
+                [{ "text": "When in Main Hand", "italic": false, "color": "gray" }],
                 [
                     { "text": "14 Attack Damage", "italic": false, "color": "dark_green" }
                 ],
@@ -28,8 +28,9 @@
                     { "text": "6.44 Attack Speed", "italic": false, "color": "dark_green" }
                 ]
             ],
-            "minecraft:item_model": "sycthe-26_xx:mace-l",
+            "minecraft:item_model": "corebound_rp:mace-l",
             "minecraft:enchantment_glint_override": false,
+            "minecraft:max_damage": 1000,
             "minecraft:attribute_modifiers": [
                 {
                     "type": "minecraft:attack_damage",

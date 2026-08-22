@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [["minecraft:barrier"]],
+    "result": {
+        "id": "minecraft:fishing_rod",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Legendary Fishing Rod",
+                "color": "gold",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    { "text": "Quality:", "italic": false, "color": "gray" },
+                    { "text": " ", "italic": false },
+                    { "text": "Legendary", "italic": false, "color": "gold" }
+                ],
+                [{ "text": "" }],
+                [{ "text": "#CoreBound", "color": "gray" }]
+            ],
+            "minecraft:item_model": "corebound_rp:fishing_rod-l",
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:max_damage": 128,
+            "minecraft:attribute_modifiers": [
+                                {
+                    "type": "minecraft:movement_speed",
+                    "id": "fishing_rod_movement_speed",
+                    "amount": 0.2,
+                    "operation": "add_multiplied_base",
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "minecraft:luck",
+                    "id": "fishing_rod_luck",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+            ]
+        }
+    }
+}

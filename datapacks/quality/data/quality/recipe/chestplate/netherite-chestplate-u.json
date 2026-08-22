@@ -1,0 +1,58 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [["minecraft:barrier"]],
+    "result": {
+        "id": "minecraft:netherite_chestplate",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Uncommon Netherite Chestplate",
+                "color": "green",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    { "text": "Quality:", "italic": false, "color": "gray" },
+                    { "text": " ", "italic": false },
+                    { "text": "Uncommon", "italic": false, "color": "green" }
+                ],
+                [{ "text": "" }],
+                [{ "text": "#CoreBound", "color": "gray" }]
+            ],
+            "minecraft:item_model": "corebound_rp:netherite-chestplate-u",
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:max_damage": 740,
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:armor",
+                    "id": "chestplate_armor",
+                    "amount": 9,
+                    "operation": "add_value",
+                    "slot": "chest"
+                },
+                {
+                    "type": "minecraft:armor_toughness",
+                    "id": "chestplate_toughness",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "chest"
+                },
+                {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "chestplate_knockback_resistance",
+                    "amount": 0.11,
+                    "operation": "add_value",
+                    "slot": "chest"
+                },
+                {
+                    "type": "minecraft:max_health",
+                    "id": "chestplate_max_health",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "chest"
+                }
+            ]
+        }
+    }
+}

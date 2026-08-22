@@ -1,0 +1,58 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [["minecraft:barrier"]],
+    "result": {
+        "id": "minecraft:netherite_boots",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Legendary Netherite Boots",
+                "color": "gold",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    { "text": "Quality:", "italic": false, "color": "gray" },
+                    { "text": " ", "italic": false },
+                    { "text": "Legendary", "italic": false, "color": "gold" }
+                ],
+                [{ "text": "" }],
+                [{ "text": "#CoreBound", "color": "gray" }]
+            ],
+            "minecraft:item_model": "corebound_rp:netherite-boots-l",
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:max_damage": 962,
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:armor",
+                    "id": "boots_armor",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "feet"
+                },
+                {
+                    "type": "minecraft:armor_toughness",
+                    "id": "boots_toughness",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "feet"
+                },
+                {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "boots_knockback_resistance",
+                    "amount": 0.14,
+                    "operation": "add_value",
+                    "slot": "feet"
+                },
+                {
+                    "type": "minecraft:max_health",
+                    "id": "boots_max_health",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "feet"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [["minecraft:barrier"]],
+    "result": {
+        "id": "minecraft:shears",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Legendary Shears",
+                "color": "gold",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    { "text": "Quality:", "italic": false, "color": "gray" },
+                    { "text": " ", "italic": false },
+                    { "text": "Legendary", "italic": false, "color": "gold" }
+                ],
+                [{ "text": "" }],
+                [{ "text": "#CoreBound", "color": "gray" }]
+            ],
+            "minecraft:item_model": "corebound_rp:shears-l",
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:max_damage": 476,
+            "minecraft:attribute_modifiers": [
+                                {
+                    "type": "minecraft:movement_speed",
+                    "id": "shears_movement_speed",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_base",
+                    "slot": "mainhand"
+                }
+            ]
+        }
+    }
+}

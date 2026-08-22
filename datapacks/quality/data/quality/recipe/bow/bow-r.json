@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [["minecraft:barrier"]],
+    "result": {
+        "id": "minecraft:bow",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Rare Bow",
+                "color": "blue",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    { "text": "Quality:", "italic": false, "color": "gray" },
+                    { "text": " ", "italic": false },
+                    { "text": "Rare", "italic": false, "color": "blue" }
+                ],
+                [{ "text": "" }],
+                [{ "text": "#CoreBound", "color": "gray" }]
+            ],
+            "minecraft:item_model": "corebound_rp:bow-r",
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:max_damage": 576,
+            "minecraft:attribute_modifiers": [
+                
+            ]
+        }
+    }
+}

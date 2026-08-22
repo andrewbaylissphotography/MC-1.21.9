@@ -1,0 +1,58 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [["minecraft:barrier"]],
+    "result": {
+        "id": "minecraft:netherite_boots",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Rare Netherite Boots",
+                "color": "blue",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    { "text": "Quality:", "italic": false, "color": "gray" },
+                    { "text": " ", "italic": false },
+                    { "text": "Rare", "italic": false, "color": "blue" }
+                ],
+                [{ "text": "" }],
+                [{ "text": "#CoreBound", "color": "gray" }]
+            ],
+            "minecraft:item_model": "corebound_rp:netherite-boots-r",
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:max_damage": 722,
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:armor",
+                    "id": "boots_armor",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "feet"
+                },
+                {
+                    "type": "minecraft:armor_toughness",
+                    "id": "boots_toughness",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "feet"
+                },
+                {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "boots_knockback_resistance",
+                    "amount": 0.12,
+                    "operation": "add_value",
+                    "slot": "feet"
+                },
+                {
+                    "type": "minecraft:max_health",
+                    "id": "boots_max_health",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "feet"
+                }
+            ]
+        }
+    }
+}
