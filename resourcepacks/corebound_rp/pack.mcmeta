@@ -1,7 +1,8 @@
 {
     "pack": {
         "description": "corebound resouce pack",
-        "min_format": 84,
-        "max_format": 88
+        "min_format": 34,
+        "max_format": 88,
+        "pack_format": 34
     }
 }
