@@ -1,21 +1,20 @@
 {
-	"pack": {
-		"pack_format": 48,
-		"supported_formats": {
-			"min_inclusive": 48,
-			"max_inclusive": 94
-		},
-		"description": [
-			{
-				"text": "CoreBound:Statbook",
-				"color": "gold"
-			},
-			{
-				"text": "\ngithub.com/andrewbaylissphotography/MC-1.21.9",
-				"color": "yellow"
-			}
-		],
-		"min_format": 48,
-		"max_format": 94
-	}
+    "pack": {
+        "pack_format": 107,
+        "supported_formats": {
+            "min_inclusive": 48,
+            "max_inclusive": 107
+        },
+        "description": [
+            {
+                "text": "CoreBound:Statbook",
+                "color": "gold"
+            },
+            {
+                "text": "\ngithub.com/andrewbaylissphotography/MC-1.21.9",
+                "color": "yellow"
+            }
+        ]
+    },
+    "required_resourcepack": "corebound_rp"
 }

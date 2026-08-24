@@ -5,6 +5,7 @@ scoreboard objectives add attrAttackKnockback dummy
 scoreboard objectives add attrAttackSpeed dummy
 scoreboard objectives add attrKnockbackResist dummy
 scoreboard objectives add attrLuck dummy
+scoreboard objectives add attrMaxHealth dummy
 
 # enchantment bonus
 scoreboard objectives add sharpBonus dummy
