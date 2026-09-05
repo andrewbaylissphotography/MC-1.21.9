@@ -1,0 +1,97 @@
+{
+  "model": {
+    "type": "select",
+    "property": "minecraft:component",
+    "component": "painting/variant",
+    "cases": [
+      {
+        "when": "smppaintings:smp",
+        "model": {
+          "type": "model",
+          "model": "corebound_rp:item/smp_painting"
+        }
+      },
+      {
+        "when": "smppaintings:asexual_pride_flag",
+        "model": {
+          "type": "model",
+          "model": "corebound_rp:item/asexual_pride_flag"
+        }
+      },
+      {
+        "when": "smppaintings:flag_of_australia_converted",
+        "model": {
+          "type": "model",
+          "model": "corebound_rp:item/flag_of_australia_converted"
+        }
+      },
+      {
+        "when": "smppaintings:flag_of_england",
+        "model": {
+          "type": "model",
+          "model": "corebound_rp:item/flag_of_england"
+        }
+      },
+      {
+        "when": "smppaintings:flag_of_scotland",
+        "model": {
+          "type": "model",
+          "model": "corebound_rp:item/flag_of_scotland"
+        }
+      },
+      {
+        "when": "smppaintings:flag_of_the_united_kingdom_1_2",
+        "model": {
+          "type": "model",
+          "model": "corebound_rp:item/flag_of_the_united_kingdom_1_2"
+        }
+      },
+      {
+        "when": "smppaintings:flag_of_the_united_states",
+        "model": {
+          "type": "model",
+          "model": "corebound_rp:item/flag_of_the_united_states"
+        }
+      },
+      {
+        "when": "smppaintings:flag_of_wales",
+        "model": {
+          "type": "model",
+          "model": "corebound_rp:item/flag_of_wales"
+        }
+      },
+      {
+        "when": "smppaintings:gay_pride_flag",
+        "model": {
+          "type": "model",
+          "model": "corebound_rp:item/gay_pride_flag"
+        }
+      },
+      {
+        "when": "smppaintings:pansexuality_pride_flag",
+        "model": {
+          "type": "model",
+          "model": "corebound_rp:item/pansexuality_pride_flag"
+        }
+      },
+      {
+        "when": "smppaintings:polysexuality_pride_flag",
+        "model": {
+          "type": "model",
+          "model": "corebound_rp:item/polysexuality_pride_flag"
+        }
+      },
+      {
+        "when": "smppaintings:transgender_pride_flag",
+        "model": {
+          "type": "model",
+          "model": "corebound_rp:item/transgender_pride_flag"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/painting"
+    }
+  }
+}

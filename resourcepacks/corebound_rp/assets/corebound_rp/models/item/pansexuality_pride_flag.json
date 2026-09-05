@@ -1,0 +1,4 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": { "layer0": "corebound_rp:item/pansexuality_pride_flag" }
+}

@@ -1,0 +1,4 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": { "layer0": "corebound_rp:item/flag_of_the_united_states" }
+}

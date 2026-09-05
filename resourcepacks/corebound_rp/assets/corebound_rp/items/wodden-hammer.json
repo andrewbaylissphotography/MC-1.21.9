@@ -11,19 +11,17 @@
                     "models": [
                         {
                             "type": "minecraft:model",
-                            "model": "minecraft:item/netherite_pickaxe"
+                            "model": "minecraft:item/wooden_axe"
                         },
                         {
                             "type": "minecraft:model",
-                            "model": "minecraft:item/netherite_hoe"
-                        },
-                        {
-                            "type": "minecraft:model",
-                            "model": "minecraft:item/netherite_axe"
-                        },
-                        {
-                            "type": "minecraft:model",
-                            "model": "minecraft:item/netherite_shovel"
+                            "model": "minecraft:item/wooden_axe",
+                            "transformation": {
+                                "translation": [0, 0, 0],
+                                "left_rotation": [0, 0, 0.8, 1],
+                                "right_rotation": [0, 0, 0, 0],
+                                "scale": [1, -1, 1.01]
+                            }
                         }
                     ]
                 }

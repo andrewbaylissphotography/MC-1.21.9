@@ -1,15 +1,16 @@
 {
-    "pack": {
-        "pack_format": 88,
-        "description": {
-            "text": "Corebound:ResourcePack",
-            "color": "gold",
-            "extra": [
-                {
-                    "text": "\ngithub.com/andrewbaylissphotography/MC-1.21.9",
-                    "color": "yellow"
-                }
-            ]
+  "pack": {
+    "min_format": [88, 0],
+    "max_format": [88, 0],
+    "description": {
+      "text": "Corebound:ResourcePack",
+      "color": "gold",
+      "extra": [
+        {
+          "text": "\ngithub.com/andrewbaylissphotography/MC-1.21.9",
+          "color": "yellow"
         }
+      ]
     }
+  }
 }
