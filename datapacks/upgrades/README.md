@@ -1,6 +1,6 @@
-# CoreBound Set Bonus - Newbie
+# CoreBound Item Upgrades
 
-gives player a starter kit that has built in effects. each item of the set gains more effects.
+allows items to be upgrades throught material tiers. gold -> iron -> diamond
 
 ## Development Notes
 Some ideas and programming assistance were generated with the help of AI tools (ChatGPT) for briainstorming and function logic. All code was tested, intergrated and reviewed manually. 

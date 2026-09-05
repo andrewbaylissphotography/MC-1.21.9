@@ -1,6 +1,12 @@
-# CoreBound Set Bonus - Newbie
+# CoreBound Smelting
 
-gives player a starter kit that has built in effects. each item of the set gains more effects.
+adds new smelting recipes with cook time and experaince multiplied fom the raw -> ingot recipe
+
+raw iron block -> iron block
+raw gold block -> gold block
+raw copper block -> gold block
+
+rotten flesh -> leather (based from many mods)
 
 ## Development Notes
 Some ideas and programming assistance were generated with the help of AI tools (ChatGPT) for briainstorming and function logic. All code was tested, intergrated and reviewed manually. 

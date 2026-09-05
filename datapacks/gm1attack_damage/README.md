@@ -1,4 +1,7 @@
-# CoreBound Spectator Night vision
+# CoreBound Creative Instand Damage
+
+sets a creative player attack to 1000, so it can defeat mobs in 1 hit, like it can with blocks.
+
 
 
 ## Development Notes

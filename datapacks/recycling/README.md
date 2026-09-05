@@ -1,19 +1,18 @@
-# CoreBound Quality Tiers
+# CoreBound Ingot Recycler
 
-adds 4 quality tiers
-Uncommon, Rare, Epic and Legendary.
+replaces vanilla smelting with a recycling system. returns ingots used in the prodocutions
 
-to weapons and tools. these include
-axe, hoe, mace, pickaxe, shovel, spear, sword, trident
+handlines the items that used to be smelted into nuggets but adds new items such as:
 
-legendary items have passive abilities like more speed or luck
-legendary items have active abilities like strength 2 when less than 50% health.
+anvil,
+minecarts,
+horse armour,
+naulitis armour,
 
 ## Compatibility
 
 The datapack relies only on vanilla Minecraft assets and datapack functionality. No mods, plugins, or external software are required.
 
-** Resource Pack required **
 
 ## Development Notes
 Some ideas and programming assistance were generated with the help of AI tools (ChatGPT) for brainstorming and function logic. All code was tested, integrated and reviewed manually. 
