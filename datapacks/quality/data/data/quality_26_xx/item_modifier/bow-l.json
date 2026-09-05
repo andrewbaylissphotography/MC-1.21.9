@@ -1,0 +1,45 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Legendary Bow",
+            "color": "gold",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Legendary",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ]
+        ],
+        "minecraft:item_model": "corebound_rp:bow-l",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 768,
+        "minecraft:attribute_modifiers": [
+
+        ]
+    }
+}

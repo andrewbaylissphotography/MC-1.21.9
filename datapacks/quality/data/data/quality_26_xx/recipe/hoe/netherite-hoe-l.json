@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:netherite_hoe",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Legendary Netherite Hoe",
+                "color": "gold",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Quality:",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "Legendary",
+                        "italic": false,
+                        "color": "gold"
+                    }
+                ],
+                [
+                    {
+                        "text": "#CoreBound",
+                        "color": "gray"
+                    }
+                ]
+            ],
+            "minecraft:item_model": "corebound_rp:netherite-hoe-l"
+        }
+    }
+}

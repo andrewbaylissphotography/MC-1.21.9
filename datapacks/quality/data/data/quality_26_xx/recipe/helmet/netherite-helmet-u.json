@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:netherite_helmet",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Uncommon Netherite Helmet",
+                "color": "green",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Quality:",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "Uncommon",
+                        "italic": false,
+                        "color": "green"
+                    }
+                ],
+                [
+                    {
+                        "text": "#CoreBound",
+                        "color": "gray"
+                    }
+                ]
+            ],
+            "minecraft:item_model": "corebound_rp:netherite-helmet-u"
+        }
+    }
+}

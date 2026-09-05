@@ -1,0 +1,105 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Uncommon Netherite Axe",
+            "color": "green",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Uncommon",
+                    "italic": false,
+                    "color": "green"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "When in Main Hand",
+                    "italic": false,
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "12.1 Attack Damage",
+                    "italic": false,
+                    "color": "dark_green"
+                }
+            ],
+            [
+                {
+                    "text": "2.2 Attack Speed",
+                    "italic": false,
+                    "color": "dark_green"
+                }
+            ]
+        ],
+        "minecraft:item_model": "corebound_rp:netherite-axe-u",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 2539,
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:attack_damage",
+                "id": "axe_damage",
+                "amount": 10,
+                "operation": "add_value",
+                "slot": "mainhand",
+                "display": {
+                    "type": "hidden"
+                }
+            },
+            {
+                "type": "minecraft:attack_damage",
+                "id": "axe_percent",
+                "amount": 0.1,
+                "operation": "add_multiplied_total",
+                "slot": "mainhand",
+                "display": {
+                    "type": "hidden"
+                }
+            },
+            {
+                "type": "minecraft:attack_speed",
+                "id": "axe_speed",
+                "amount": -2,
+                "operation": "add_value",
+                "slot": "mainhand",
+                "display": {
+                    "type": "hidden"
+                }
+            },
+            {
+                "type": "minecraft:attack_speed",
+                "id": "axe_percent_speed",
+                "amount": 0.1,
+                "operation": "add_multiplied_total",
+                "slot": "mainhand",
+                "display": {
+                    "type": "hidden"
+                }
+            }
+        ]
+    }
+}

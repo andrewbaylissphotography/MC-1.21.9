@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 48,
+        "pack_format": 107,
         "supported_formats": {
             "min_inclusive": 48,
             "max_inclusive": 107
@@ -14,11 +14,6 @@
                 "text": "\ngithub.com/andrewbaylissphotography/MC-1.21.9",
                 "color": "yellow"
             }
-        ],
-        "min_format": 48,
-        "max_format": [
-            107,
-            1
         ]
     },
     "required_resourcepack": "corebound_rp"

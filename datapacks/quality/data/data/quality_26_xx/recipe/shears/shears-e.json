@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:shears",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Epic Shears",
+                "color": "light_purple",
+                "italic": false
+            },
+"minecraft:lore": [
+    [
+        { "text": "Quality:", "italic": false, "color": "gray" },
+        { "text": " ", "italic": false },
+        { "text": "Epic", "italic": false, "color": "light_purple" }
+    ],
+    [
+        { "text": "#CoreBound", "color": "gray" }
+    ],
+    [
+        { "text": "" }
+    ]
+],
+
+            "minecraft:item_model": "corebound_rp:shears-e",
+            "minecraft:attribute_modifiers": [
+
+            ]
+
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "description": "adds tiers to items",
+        "min_format": [
+            107,
+            1
+        ],
+        "max_format": [
+            107,
+            1
+        ]
+    },
+    "required_resourcepack": "corebound_rp"
+}

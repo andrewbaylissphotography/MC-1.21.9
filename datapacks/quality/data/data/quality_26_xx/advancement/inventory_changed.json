@@ -1,0 +1,891 @@
+{
+    "criteria": {
+        "helmet_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-helmet-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "helmet_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-helmet-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "helmet_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-helmet-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "helmet_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-helmet-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "chestplate_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-chestplate-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "chestplate_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-chestplate-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "chestplate_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-chestplate-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "chestplate_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-chestplate-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "leggings_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-leggings-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "leggings_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-leggings-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "leggings_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-leggings-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "leggings_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-leggings-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "boots_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-boots-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "boots_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-boots-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "boots_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-boots-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "boots_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-boots-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "fishing_rod_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:fishing_rod",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:fishing_rod-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "fishing_rod_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:fishing_rod",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:fishing_rod-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "fishing_rod_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:fishing_rod",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:fishing_rod-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "fishing_rod_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:fishing_rod",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:fishing_rod-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "shears_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shears",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:shears-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "shears_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shears",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:shears-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "shears_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shears",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:shears-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "shears_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:shears",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:shears-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:bow-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:bow-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:bow-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "bow_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bow",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:bow-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:crossbow-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:crossbow-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:crossbow-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "crossbow_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crossbow",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:crossbow-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "elytra_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:elytra",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:elytra-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "elytra_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:elytra",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:elytra-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "elytra_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:elytra",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:elytra-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "elytra_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:elytra",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:elytra-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "shovel_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-shovel-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "shovel_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-shovel-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "shovel_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-shovel-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "shovel_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_shovel",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-shovel-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "pickaxe_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-pickaxe-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "pickaxe_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-pickaxe-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "pickaxe_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-pickaxe-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "pickaxe_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-pickaxe-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "axe_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-axe-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "axe_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-axe-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "axe_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-axe-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "axe_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-axe-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "hoe_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_hoe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-hoe-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "hoe_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_hoe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-hoe-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "hoe_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_hoe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-hoe-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "hoe_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_hoe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-hoe-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "sword_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-sword-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "sword_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-sword-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "sword_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-sword-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "sword_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_sword",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-sword-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "spear_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_spear",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-spear-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "spear_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_spear",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-spear-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "spear_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_spear",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-spear-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "spear_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_spear",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-spear-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "mace_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:mace",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:mace-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "mace_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:mace",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:mace-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "mace_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:mace",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:mace-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "mace_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:mace",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:mace-l"
+                        }
+                    }
+                ]
+            }
+        },
+        "trident_u": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:trident",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:trident-u"
+                        }
+                    }
+                ]
+            }
+        },
+        "trident_r": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:trident",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:trident-r"
+                        }
+                    }
+                ]
+            }
+        },
+        "trident_e": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:trident",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:trident-e"
+                        }
+                    }
+                ]
+            }
+        },
+        "trident_l": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:trident",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:trident-l"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "quality_26_xx:inventory_changed"
+    }
+}

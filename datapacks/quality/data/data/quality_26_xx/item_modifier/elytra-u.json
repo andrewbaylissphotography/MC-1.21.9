@@ -1,0 +1,45 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Uncommon Elytra",
+            "color": "green",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Uncommon",
+                    "italic": false,
+                    "color": "green"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ]
+        ],
+        "minecraft:item_model": "corebound_rp:elytra-u",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 540,
+        "minecraft:attribute_modifiers": [
+
+        ]
+    }
+}
