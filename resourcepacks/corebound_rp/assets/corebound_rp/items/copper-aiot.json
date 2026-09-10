@@ -1,0 +1,35 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+
+        "cases": [
+            {
+                "when": ["gui", "ground", "on_shelf", "firstperson_lefthand","firstperson_righthand","thirdperson_lefthand","thirdperson_righthand"],
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/copper_pickaxe"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/copper_hoe"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/copper_axe"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/copper_shovel"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "oversized_in_gui": false
+}

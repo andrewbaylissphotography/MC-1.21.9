@@ -1,4 +1,4 @@
-## CoreBound Resource Pack
+# CoreBound Resource Pack
 
 this resource pack provides all custom assets for the Corebound family of datapacks.
 

@@ -5,25 +5,25 @@
 
         "cases": [
             {
-                "when": ["gui", "ground", "on_shelf"],
+                "when": ["gui", "ground", "on_shelf", "firstperson_lefthand","firstperson_righthand","thirdperson_lefthand","thirdperson_righthand"],
                 "model": {
                     "type": "minecraft:composite",
                     "models": [
                         {
                             "type": "minecraft:model",
-                            "model": "minecraft:item/netherite_pickaxe"
+                            "model": "minecraft:item/golden_pickaxe"
                         },
                         {
                             "type": "minecraft:model",
-                            "model": "minecraft:item/netherite_hoe"
+                            "model": "minecraft:item/golden_hoe"
                         },
                         {
                             "type": "minecraft:model",
-                            "model": "minecraft:item/netherite_axe"
+                            "model": "minecraft:item/golden_axe"
                         },
                         {
                             "type": "minecraft:model",
-                            "model": "minecraft:item/netherite_shovel"
+                            "model": "minecraft:item/golden_shovel"
                         }
                     ]
                 }
