@@ -1,0 +1,2 @@
+execute as @a[gamemode=!spectator] at @s if items entity @s weapon.mainhand *[minecraft:enchantments~[{enchantments:"corebound_enchant:magnetic"}]] run tp @e[type=minecraft:item,distance=..8] @s
+execute as @a[gamemode=!spectator] at @s if items entity @s weapon.mainhand *[minecraft:enchantments~[{enchantments:"corebound_enchant:magnetic"}]] run tp @e[type=minecraft:experience_orb,distance=..8] @s
