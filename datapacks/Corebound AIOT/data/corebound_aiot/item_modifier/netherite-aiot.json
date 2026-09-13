@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_name": {
+                "text": "Netherite AIOT",
+                "color": "dark_aqua",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [{ "text": "#CoreBound", "color": "gray" }]
+            ],
+            "minecraft:item_model": "corebound_rp:netherite-aiot"
+    }
+}

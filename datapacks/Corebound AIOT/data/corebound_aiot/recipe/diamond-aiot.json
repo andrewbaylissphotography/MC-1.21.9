@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "minecraft:diamond_shovel",
+        "minecraft:diamond_pickaxe",
+        "minecraft:diamond_axe",
+        "minecraft:diamond_hoe"
+    ],
+    "result": {
+        "id": "minecraft:diamond_axe",
+        "components": {
+            "minecraft:item_name": {
+                "text": "Diamond AIOT",
+                "color": "dark_aqua",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Enchantments will be lost from source items",
+                        "italic": false,
+                        "color": "red"
+                    }
+                ],
+                [{ "text": "#CoreBound", "color": "gray" }]
+            ],
+            "minecraft:item_model": "corebound_rp:diamond-aiot"
+        },
+        "count": 1
+    }
+}

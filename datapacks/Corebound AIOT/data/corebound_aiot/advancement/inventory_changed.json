@@ -1,0 +1,49 @@
+{
+    "criteria": {
+        
+        "diamond-aiot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_axe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:diamond-aiot"
+                        }
+                    }
+                ]
+            }
+        },
+
+        "iron-aiot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:iron-aiot"
+                        }
+                    }
+                ]
+            }
+        },
+
+        "netherite-aiot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_axe",
+                        "components": {
+                            "minecraft:item_model": "corebound_rp:netherite-aiot"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "corebound_aiot:inventory_changed"
+    }
+}
