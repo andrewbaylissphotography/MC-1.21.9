@@ -1,5 +1,8 @@
 # CoreBound Resource Pack
 
+![Minecraft](https://img.shields.io/badge/Minecraft%20Java-26.2-62B47A?logo=minecraft&logoColor=white)
+![Datapack](https://img.shields.io/badge/Type-Resourcepack-blue)
+
 this resource pack provides all custom assets for the Corebound family of datapacks.
 
 speficily Quality, SMPPaintings, AIOT, Armoured Elytra, Hammering
