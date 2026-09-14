@@ -2,41 +2,41 @@
     "function": "minecraft:set_components",
         "components": {
             "minecraft:item_name": {
-                "text": "Iron AIOT",
+                "text": "Wooden AIOT",
                 "color": "dark_aqua",
                 "italic": false
             },
             "minecraft:lore": [
                 [{ "text": "#CoreBound", "color": "gray" }]
             ],
-            "minecraft:item_model": "corebound_rp:iron-aiot",
-            "minecraft:max_damage": 1000,
+            "minecraft:item_model": "corebound_rp:wooden-aiot",
+            "minecraft:max_damage": 236,
             "minecraft:tool": {
     "default_mining_speed": 1.0,
     "damage_per_block": 1,
     "rules": [
         {
-            "blocks": "#minecraft:incorrect_for_iron_tool",
+            "blocks": "#minecraft:incorrect_for_wooden_tool",
             "correct_for_drops": false
         },
         {
             "blocks": "#minecraft:mineable/pickaxe",
-            "speed": 6.0,
+            "speed": 2.0,
             "correct_for_drops": true
         },
         {
             "blocks": "#minecraft:mineable/axe",
-            "speed": 6.0,
+            "speed": 2.0,
             "correct_for_drops": true
         },
         {
             "blocks": "#minecraft:mineable/shovel",
-            "speed": 6.0,
+            "speed": 2.0,
             "correct_for_drops": true
         },
         {
             "blocks": "#minecraft:mineable/hoe",
-            "speed": 6.0,
+            "speed": 2.0,
             "correct_for_drops": true
         }
     ]

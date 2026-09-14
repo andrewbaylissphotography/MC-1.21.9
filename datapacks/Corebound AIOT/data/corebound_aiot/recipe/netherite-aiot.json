@@ -18,6 +18,18 @@
             "minecraft:lore": [
                 [
                     {
+                        "text": "Durability: ",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": "8124",
+                        "italic": false,
+                        "color": "white"
+                    }
+                ],
+                [
+                    {
                         "text": "Enchantments will be lost from source items",
                         "italic": false,
                         "color": "red"
@@ -25,7 +37,8 @@
                 ],
                 [{ "text": "#CoreBound", "color": "gray" }]
             ],
-            "minecraft:item_model": "corebound_rp:netherite-aiot"
+            "minecraft:item_model": "corebound_rp:netherite-aiot",
+            "minecraft:max_damage": 8124
         },
         "count": 1
     }

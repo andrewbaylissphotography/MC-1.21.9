@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shapeless",
     "category": "equipment",
     "ingredients": [
-        "minecraft:iron_shovel",
-        "minecraft:iron_pickaxe",
-        "minecraft:iron_axe",
-        "minecraft:iron_hoe"
+        "minecraft:wooden_shovel",
+        "minecraft:wooden_pickaxe",
+        "minecraft:wooden_axe",
+        "minecraft:wooden_hoe"
     ],
     "result": {
-        "id": "minecraft:iron_axe",
+        "id": "minecraft:wooden_axe",
         "components": {
             "minecraft:item_name": {
-                "text": "Iron AIOT",
+                "text": "Wooden AIOT",
                 "color": "dark_aqua",
                 "italic": false
             },
@@ -23,7 +23,7 @@
                         "color": "gray"
                     },
                     {
-                        "text": "1000",
+                        "text": "236",
                         "italic": false,
                         "color": "white"
                     }
@@ -37,8 +37,8 @@
                 ],
                 [{ "text": "#CoreBound", "color": "gray" }]
             ],
-            "minecraft:item_model": "corebound_rp:iron-aiot",
-            "minecraft:max_damage": 1000
+            "minecraft:item_model": "corebound_rp:wooden-aiot",
+            "minecraft:max_damage": 236
         },
         "count": 1
     }

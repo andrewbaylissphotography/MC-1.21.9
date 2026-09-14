@@ -1,6 +1,9 @@
 {
     "pack": {
-        "description": "",
+        "description": {
+            "text": "Corebound:All-In-One-Tool",
+            "color": "gold"
+        },
         "min_format": [
             107,
             1
@@ -10,5 +13,6 @@
             1
         ]
     },
-    "required_resourcepack": "corebound_rp"
+    "required_resourcepack": "corebound_rp",
+    "version": ""
 }

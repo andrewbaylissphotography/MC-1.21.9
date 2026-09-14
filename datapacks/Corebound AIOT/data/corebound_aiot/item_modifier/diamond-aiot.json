@@ -9,6 +9,37 @@
             "minecraft:lore": [
                 [{ "text": "#CoreBound", "color": "gray" }]
             ],
-            "minecraft:item_model": "corebound_rp:diamond-aiot"
+            "minecraft:item_model": "corebound_rp:diamond-aiot",
+            "minecraft:max_damage": 6244,
+            "minecraft:tool": {
+    "default_mining_speed": 1.0,
+    "damage_per_block": 1,
+    "rules": [
+        {
+            "blocks": "#minecraft:incorrect_for_diamond_tool",
+            "correct_for_drops": false
+        },
+        {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "speed": 8.0,
+            "correct_for_drops": true
+        },
+        {
+            "blocks": "#minecraft:mineable/axe",
+            "speed": 8.0,
+            "correct_for_drops": true
+        },
+        {
+            "blocks": "#minecraft:mineable/shovel",
+            "speed": 8.0,
+            "correct_for_drops": true
+        },
+        {
+            "blocks": "#minecraft:mineable/hoe",
+            "speed": 8.0,
+            "correct_for_drops": true
+        }
+    ]
+}
     }
 }

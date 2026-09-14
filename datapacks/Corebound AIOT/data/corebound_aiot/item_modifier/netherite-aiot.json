@@ -8,7 +8,34 @@
             },
             "minecraft:lore": [
                 [{ "text": "#CoreBound", "color": "gray" }]
-            ],
-            "minecraft:item_model": "corebound_rp:netherite-aiot"
+        ],
+        "minecraft:item_model": "corebound_rp:netherite-aiot",
+        "minecraft:max_damage": 8124,
+        "minecraft:tool": {
+            "default_mining_speed": 1.0,
+            "damage_per_block": 1,
+            "rules": [
+                {
+                    "blocks": "#minecraft:mineable/pickaxe",
+                    "speed": 9.0,
+                    "correct_for_drops": true
+                },
+                {
+                    "blocks": "#minecraft:mineable/axe",
+                    "speed": 9.0,
+                    "correct_for_drops": true
+                },
+                {
+                    "blocks": "#minecraft:mineable/shovel",
+                    "speed": 9.0,
+                    "correct_for_drops": true
+                },
+                {
+                    "blocks": "#minecraft:mineable/hoe",
+                    "speed": 9.0,
+                    "correct_for_drops": true
+                }
+            ]
+        }
     }
 }

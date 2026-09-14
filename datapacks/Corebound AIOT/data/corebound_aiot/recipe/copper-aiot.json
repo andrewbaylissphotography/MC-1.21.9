@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shapeless",
     "category": "equipment",
     "ingredients": [
-        "minecraft:iron_shovel",
-        "minecraft:iron_pickaxe",
-        "minecraft:iron_axe",
-        "minecraft:iron_hoe"
+        "minecraft:copper_shovel",
+        "minecraft:copper_pickaxe",
+        "minecraft:copper_axe",
+        "minecraft:copper_hoe"
     ],
     "result": {
-        "id": "minecraft:iron_axe",
+        "id": "minecraft:copper_axe",
         "components": {
             "minecraft:item_name": {
-                "text": "Iron AIOT",
+                "text": "Copper AIOT",
                 "color": "dark_aqua",
                 "italic": false
             },
@@ -23,7 +23,7 @@
                         "color": "gray"
                     },
                     {
-                        "text": "1000",
+                        "text": "760",
                         "italic": false,
                         "color": "white"
                     }
@@ -37,8 +37,8 @@
                 ],
                 [{ "text": "#CoreBound", "color": "gray" }]
             ],
-            "minecraft:item_model": "corebound_rp:iron-aiot",
-            "minecraft:max_damage": 1000
+            "minecraft:item_model": "corebound_rp:copper-aiot",
+            "minecraft:max_damage": 760
         },
         "count": 1
     }
