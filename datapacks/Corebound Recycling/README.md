@@ -1,6 +1,6 @@
 # CoreBound Recycling
 
-![Minecraft](https://img.shields.io/badge/Minecraft%20Java-26.1--26.2-62B47A?logo=minecraft&logoColor=white)
+![Minecraft](https://img.shields.io/badge/Minecraft%20Java-26.1--26.3-62B47A?logo=minecraft&logoColor=white)
 ![Datapack](https://img.shields.io/badge/Type-Datapack-blue)
 
 adds a recycling feature that smelts iron and copper items to the ingot inputs.
