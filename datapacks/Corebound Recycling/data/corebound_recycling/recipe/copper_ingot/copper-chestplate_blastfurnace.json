@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "copper_chestplate",
+    "result": { "id": "minecraft:copper_ingot", "count": 8 },
+    "experience": 7.2,
+    "cookingtime": 7200,
+    "group": "copper_ingot"
+}

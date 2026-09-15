@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "golden_boots",
+    "result": { "id": "minecraft:gold_ingot", "count": 4 },
+    "experience": 3.6,
+    "cookingtime": 3600,
+    "group": "gold_ingot"
+}

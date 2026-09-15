@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "golden_pickaxe",
+    "result": { "id": "minecraft:gold_ingot", "count": 3 },
+    "experience": 2.7,
+    "cookingtime": 2700,
+    "group": "gold_ingot"
+}

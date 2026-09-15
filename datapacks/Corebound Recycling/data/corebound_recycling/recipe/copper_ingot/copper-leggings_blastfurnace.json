@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "copper_leggings",
+    "result": { "id": "minecraft:copper_ingot", "count": 7 },
+    "experience": 6.3,
+    "cookingtime": 6300,
+    "group": "copper_ingot"
+}

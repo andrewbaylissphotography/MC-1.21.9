@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "minecraft:iron_door",
+    "result": { "id": "minecraft:iron_ingot", "count": 2 },
+    "experience": 1.8,
+    "cookingtime": 1800,
+    "group": "iron_ingot"
+}

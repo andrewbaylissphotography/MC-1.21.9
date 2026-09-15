@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "#minecraft:anvil",
+    "result": { "id": "minecraft:iron_ingot", "count": 31 },
+    "experience": 27.9,
+    "cookingtime": 27900,
+    "group": "iron_ingot"
+}

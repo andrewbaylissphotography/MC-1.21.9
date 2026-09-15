@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": "copper_chestplate",
+    "result": { "id": "minecraft:copper_ingot", "count": 8 },
+    "experience": 7.2,
+    "cookingtime": 14400,
+    "group": "copper_ingot"
+}

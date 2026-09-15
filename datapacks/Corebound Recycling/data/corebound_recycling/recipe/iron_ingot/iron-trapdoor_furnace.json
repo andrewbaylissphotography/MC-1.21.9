@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": "iron_trapdoor",
+    "result": { "id": "minecraft:iron_ingot", "count": 4 },
+    "experience": 3.6,
+    "cookingtime": 7200,
+    "group": "iron_ingot"
+}

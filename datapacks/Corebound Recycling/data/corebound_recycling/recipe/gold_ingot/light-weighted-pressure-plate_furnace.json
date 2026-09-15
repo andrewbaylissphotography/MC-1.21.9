@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": "light_weighted_pressure_plate",
+    "result": { "id": "minecraft:gold_ingot", "count": 2 },
+    "experience": 1.8,
+    "cookingtime": 3600,
+    "group": "gold_ingot"
+}

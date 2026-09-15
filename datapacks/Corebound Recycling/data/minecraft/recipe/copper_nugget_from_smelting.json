@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    "minecraft:copper_horse_armor",
+    "minecraft:copper_nautilus_armor"
+  ],
+  "result": {
+    "id": "minecraft:copper_nugget"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "minecraft:copper_door",
+    "result": { "id": "minecraft:copper_ingot", "count": 2 },
+    "experience": 1.8,
+    "cookingtime": 1800,
+    "group": "copper_ingot"
+}

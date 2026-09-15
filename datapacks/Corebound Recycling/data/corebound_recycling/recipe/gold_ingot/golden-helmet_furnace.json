@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": "golden_helmet",
+    "result": { "id": "minecraft:gold_ingot", "count": 5 },
+    "experience": 4.5,
+    "cookingtime": 9000,
+    "group": "gold_ingot"
+}

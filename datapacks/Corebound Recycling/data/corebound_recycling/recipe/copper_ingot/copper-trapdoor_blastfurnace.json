@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "copper_trapdoor",
+    "result": { "id": "minecraft:copper_ingot", "count": 4 },
+    "experience": 3.6,
+    "cookingtime": 3600,
+    "group": "copper_ingot"
+}

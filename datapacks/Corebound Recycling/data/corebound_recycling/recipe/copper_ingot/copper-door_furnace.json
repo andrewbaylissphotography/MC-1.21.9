@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": "minecraft:copper_door",
+    "result": { "id": "minecraft:copper_ingot", "count": 2 },
+    "experience": 1.8,
+    "cookingtime": 3600,
+    "group": "copper_ingot"
+}

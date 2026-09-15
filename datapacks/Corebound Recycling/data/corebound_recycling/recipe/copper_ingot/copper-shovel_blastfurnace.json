@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "copper_shovel",
+    "result": { "id": "minecraft:copper_ingot", "count": 1 },
+    "experience": 0.9,
+    "cookingtime": 900,
+    "group": "copper_ingot"
+}
