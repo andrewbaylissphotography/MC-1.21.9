@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:smelting",
-    "ingredient": "minecraft:cauldron",
+    "type": "minecraft:blasting",
+    "ingredient": "minecraft:iron_leggings",
     "result": { "id": "minecraft:iron_ingot", "count": 7 },
     "experience": 6.3,
-    "cookingtime": 12600,
+    "cookingtime": 6300,
     "group": "iron_ingot"
 }

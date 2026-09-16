@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "ingredient": "minecraft:anvil",
-    "result": { "id": "minecraft:iron_ingot", "count": 31 },
-    "experience": 27.9,
-    "cookingtime": 55800,
-    "group": "iron_ingot"
-}

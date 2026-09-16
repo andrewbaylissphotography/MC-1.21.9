@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:smelting",
-    "ingredient": "minecraft:bucket",
+    "type": "minecraft:blasting",
+    "ingredient": "minecraft:iron_pickaxe",
     "result": { "id": "minecraft:iron_ingot", "count": 3 },
     "experience": 2.7,
-    "cookingtime": 5400,
+    "cookingtime": 2700,
     "group": "iron_ingot"
 }

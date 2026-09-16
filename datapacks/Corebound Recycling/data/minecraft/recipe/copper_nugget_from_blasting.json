@@ -3,6 +3,7 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.1,
+  "group": "copper_nugget",
   "ingredient": [
     "minecraft:copper_horse_armor",
     "minecraft:copper_nautilus_armor"

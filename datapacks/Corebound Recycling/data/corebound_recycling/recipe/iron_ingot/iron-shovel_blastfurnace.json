@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "minecraft:iron_shovel",
+    "result": { "id": "minecraft:iron_ingot", "count": 1 },
+    "experience": 0.9,
+    "cookingtime": 900,
+    "group": "iron_ingot"
+}

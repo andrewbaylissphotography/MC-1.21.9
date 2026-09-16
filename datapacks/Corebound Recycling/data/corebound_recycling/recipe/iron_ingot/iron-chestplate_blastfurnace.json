@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "minecraft:iron_helmet",
+    "result": { "id": "minecraft:iron_ingot", "count": 8 },
+    "experience": 7.2,
+    "cookingtime": 7200,
+    "group": "iron_ingot"
+}

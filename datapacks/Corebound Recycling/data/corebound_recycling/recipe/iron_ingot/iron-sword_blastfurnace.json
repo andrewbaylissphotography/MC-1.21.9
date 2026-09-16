@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:smelting",
-    "ingredient": "heavy_weighted_pressure_plate",
+    "type": "minecraft:blasting",
+    "ingredient": "minecraft:iron_sword",
     "result": { "id": "minecraft:iron_ingot", "count": 2 },
     "experience": 1.8,
-    "cookingtime": 3600,
+    "cookingtime": 1800,
     "group": "iron_ingot"
 }

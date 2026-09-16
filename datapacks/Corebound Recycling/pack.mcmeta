@@ -1,7 +1,13 @@
 {
     "pack": {
-        "description": { "text": "Corebound:Recycling", "color": "gold" },
-        "min_format": [101, 1],
-        "max_format": [107, 1]
+        "description": {
+            "text": "Corebound:Recycling",
+            "color": "gold"
+        },
+        "min_format": [
+            101,
+            1
+        ],
+        "max_format": 121
     }
 }
