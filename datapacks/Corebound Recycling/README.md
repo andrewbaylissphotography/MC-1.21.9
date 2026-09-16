@@ -12,7 +12,9 @@ Recycling is intentionally limited to the Blast Furnace, giving otherwise unwant
 The amount returned is based on the item's original metal cost.
 
 > **NOTE:** Recycling returns the item's full original material cost regardless of its durability.
+
 > **NOTE:** Recycling does not refund non-metal materials used in crafting.
+
 > **NOTE:** Horse Armor, Chainmail and Nautilus Armor are not changed by this pack.
 
 ### Copper
