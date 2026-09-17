@@ -1,0 +1,74 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Uncommon Copper Helmet",
+            "color": "green",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Uncommon",
+                    "italic": false,
+                    "color": "green"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ]
+
+
+        ],
+        "minecraft:item_model": "corebound_rp:copper-helmet-u",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 96,
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:armor",
+                "id": "copper_helmet_armor",
+                "amount": 3,
+                "operation": "add_value",
+                "slot": "head"
+            },
+            {
+                "type": "minecraft:armor_toughness",
+                "id": "copper_helmet_toughness",
+                "amount": 1,
+                "operation": "add_value",
+                "slot": "head"
+            },
+            {
+                "type": "minecraft:knockback_resistance",
+                "id": "copper_helmet_knockback_resistance",
+                "amount": 0.01,
+                "operation": "add_value",
+                "slot": "head"
+            },
+            {
+                "type": "minecraft:max_health",
+                "id": "copper_helmet_max_health",
+                "amount": 0,
+                "operation": "add_value",
+                "slot": "head"
+            }
+        ]
+    }
+}

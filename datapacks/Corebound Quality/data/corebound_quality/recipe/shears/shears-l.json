@@ -1,0 +1,77 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:shears",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Legendary Shears",
+                "color": "gold",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Quality:",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "Legendary",
+                        "italic": false,
+                        "color": "gold"
+                    }
+                ],
+                [
+                    {
+                        "text": "#CoreBound",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": ""
+                    }
+                ],
+                [
+                    {
+                        "text": "+476",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Durability",
+                        "italic": false,
+                        "color": "blue"
+                    }
+                ]
+                ,
+            [
+                {
+                    "text": "Passive Ability: ",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            [
+                {
+                    "text": "+10% Speed",
+                    "italic": false,
+                    "color": "dark_green"
+                }
+            ]
+            ],
+"minecraft:item_model": "corebound_rp:shears-l",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

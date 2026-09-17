@@ -1,0 +1,74 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Legendary Leather Tunic",
+            "color": "gold",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Legendary",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ]
+
+
+        ],
+        "minecraft:item_model": "corebound_rp:leather-chestplate-l",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 160,
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:armor",
+                "id": "leather_chestplate_armor",
+                "amount": 7,
+                "operation": "add_value",
+                "slot": "chest"
+            },
+            {
+                "type": "minecraft:armor_toughness",
+                "id": "leather_chestplate_toughness",
+                "amount": 4,
+                "operation": "add_value",
+                "slot": "chest"
+            },
+            {
+                "type": "minecraft:knockback_resistance",
+                "id": "leather_chestplate_knockback_resistance",
+                "amount": 0.04,
+                "operation": "add_value",
+                "slot": "chest"
+            },
+            {
+                "type": "minecraft:max_health",
+                "id": "leather_chestplate_max_health",
+                "amount": 5,
+                "operation": "add_value",
+                "slot": "chest"
+            }
+        ]
+    }
+}

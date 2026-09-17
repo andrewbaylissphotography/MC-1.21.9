@@ -1,0 +1,96 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:diamond_axe",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Epic Diamond Axe",
+                "color": "light_purple",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Quality:",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "Epic",
+                        "italic": false,
+                        "color": "light_purple"
+                    }
+                ],
+                [
+                    {
+                        "text": "#CoreBound",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": " ",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": "When in Main Hand",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": "15.6",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Attack Damage",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ],
+                [
+                    {
+                        "text": "5.2",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Attack Speed",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ],
+                [
+                    {
+                        "text": "+2732",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Durability",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ]
+                
+
+            ],
+"minecraft:item_model": "corebound_rp:diamond-axe-e",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "type": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Uncommon Copper Leggings",
+            "color": "green",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Uncommon",
+                    "italic": false,
+                    "color": "green"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ]
+
+
+        ],
+        "minecraft:item_model": "corebound_rp:copper-leggings-u",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 131,
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:armor",
+                "id": "copper_leggings_armor",
+                "amount": 4,
+                "operation": "add_value",
+                "slot": "legs"
+            },
+            {
+                "type": "minecraft:armor_toughness",
+                "id": "copper_leggings_toughness",
+                "amount": 1,
+                "operation": "add_value",
+                "slot": "legs"
+            },
+            {
+                "type": "minecraft:knockback_resistance",
+                "id": "copper_leggings_knockback_resistance",
+                "amount": 0.01,
+                "operation": "add_value",
+                "slot": "legs"
+            },
+            {
+                "type": "minecraft:max_health",
+                "id": "copper_leggings_max_health",
+                "amount": 0,
+                "operation": "add_value",
+                "slot": "legs"
+            }
+        ]
+    }
+}

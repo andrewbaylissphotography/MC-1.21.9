@@ -1,0 +1,19 @@
+{
+    "pack": {
+        "description": [
+            { "text": "CoreBound:Quality", "color": "gold" },
+            {
+                "text": "\ngithub.com/andrewbaylissphotography/MC-1.21.9",
+                "color": "yellow"
+            }
+        ],
+        "min_format": [101, 1],
+        "max_format": 121
+    },
+    "required_resourcepack": "corebound_rp",
+    "overlays": {
+        "entries": [
+            { "directory": "26.3", "min_format": 121, "max_format": 121 }
+        ]
+    }
+}

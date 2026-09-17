@@ -1,0 +1,74 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Epic Leather Pants",
+            "color": "light_purple",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Epic",
+                    "italic": false,
+                    "color": "light_purple"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ]
+
+
+        ],
+        "minecraft:item_model": "corebound_rp:leather-leggings-e",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 131,
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:armor",
+                "id": "leather_leggings_armor",
+                "amount": 5,
+                "operation": "add_value",
+                "slot": "legs"
+            },
+            {
+                "type": "minecraft:armor_toughness",
+                "id": "leather_leggings_toughness",
+                "amount": 3,
+                "operation": "add_value",
+                "slot": "legs"
+            },
+            {
+                "type": "minecraft:knockback_resistance",
+                "id": "leather_leggings_knockback_resistance",
+                "amount": 0.03,
+                "operation": "add_value",
+                "slot": "legs"
+            },
+            {
+                "type": "minecraft:max_health",
+                "id": "leather_leggings_max_health",
+                "amount": 2,
+                "operation": "add_value",
+                "slot": "legs"
+            }
+        ]
+    }
+}

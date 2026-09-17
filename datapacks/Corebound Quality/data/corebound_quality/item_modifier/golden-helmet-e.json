@@ -1,0 +1,74 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Epic Golden Helmet",
+            "color": "light_purple",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Epic",
+                    "italic": false,
+                    "color": "light_purple"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ]
+
+
+        ],
+        "minecraft:item_model": "corebound_rp:golden-helmet-e",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 135,
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:armor",
+                "id": "golden_helmet_armor",
+                "amount": 5,
+                "operation": "add_value",
+                "slot": "head"
+            },
+            {
+                "type": "minecraft:armor_toughness",
+                "id": "golden_helmet_toughness",
+                "amount": 3,
+                "operation": "add_value",
+                "slot": "head"
+            },
+            {
+                "type": "minecraft:knockback_resistance",
+                "id": "golden_helmet_knockback_resistance",
+                "amount": 0.03,
+                "operation": "add_value",
+                "slot": "head"
+            },
+            {
+                "type": "minecraft:max_health",
+                "id": "golden_helmet_max_health",
+                "amount": 2,
+                "operation": "add_value",
+                "slot": "head"
+            }
+        ]
+    }
+}

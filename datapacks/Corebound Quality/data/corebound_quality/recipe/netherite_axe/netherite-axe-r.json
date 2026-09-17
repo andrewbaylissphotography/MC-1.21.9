@@ -1,0 +1,96 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:netherite_axe",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Rare Netherite Axe",
+                "color": "blue",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Quality:",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "Rare",
+                        "italic": false,
+                        "color": "blue"
+                    }
+                ],
+                [
+                    {
+                        "text": "#CoreBound",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": " ",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": "When in Main Hand",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": "14.4",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Attack Damage",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ],
+                [
+                    {
+                        "text": "3.6",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Attack Speed",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ],
+                [
+                    {
+                        "text": "+3046",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Durability",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ]
+                
+
+            ],
+"minecraft:item_model": "corebound_rp:netherite-axe-r",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

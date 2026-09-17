@@ -1,0 +1,99 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:copper_leggings",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Epic Copper Leggings",
+                "color": "light_purple",
+                "italic": false
+            },
+"minecraft:lore": [
+    [
+        {
+            "text": "Quality:",
+            "italic": false,
+            "color": "gray"
+        },
+        {
+            "text": " "
+        },
+        {
+            "text": "Epic",
+            "italic": false,
+            "color": "light_purple"
+        }
+    ],
+    [
+        {
+            "text": "#CoreBound",
+            "italic": false,
+            "color": "gray"
+        }
+    ],
+    [
+        {
+            "text": " ",
+            "italic": false,
+            "color": "gray"
+        }
+    ],
+    [
+        {
+            "text": "When equipped:",
+            "italic": false,
+            "color": "gray"
+        }
+]
+,
+    [
+        {
+            "text": "+6",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Armor",
+            "italic": false,
+            "color": "blue"
+        }
+    ],
+    [
+        {
+            "text": "+2",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Max Health",
+            "italic": false,
+            "color": "blue"
+        }
+    ],
+    [
+        {
+            "text": "+184",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Durability",
+            "italic": false,
+            "color": "blue"
+        }
+    ]
+
+],
+
+"minecraft:item_model": "corebound_rp:copper-leggings-e",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

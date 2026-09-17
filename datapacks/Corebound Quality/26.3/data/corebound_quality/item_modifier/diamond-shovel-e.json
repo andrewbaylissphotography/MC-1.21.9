@@ -1,0 +1,94 @@
+{
+    "type": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Epic Diamond Shovel",
+            "color": "light_purple",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Epic",
+                    "italic": false,
+                    "color": "light_purple"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "When in Main Hand",
+                    "italic": false,
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "11.05 Attack Damage",
+                    "italic": false,
+                    "color": "dark_green"
+                }
+            ],
+            [
+                {
+                    "text": "5.2 Attack Speed",
+                    "italic": false,
+                    "color": "dark_green"
+                }
+            ]
+            
+        ],
+        "minecraft:item_model": "corebound_rp:diamond-shovel-e",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 2732,
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:attack_damage",
+                "id": "diamond_shovel_damage",
+                "amount": 7.5,
+                "operation": "add_value",
+                "slot": "mainhand"
+            },
+            {
+                "type": "minecraft:attack_damage",
+                "id": "diamond_shovel_percent",
+                "amount": 0.3,
+                "operation": "add_multiplied_total",
+                "slot": "mainhand"
+            },
+            {
+                "type": "minecraft:attack_speed",
+                "id": "diamond_shovel_speed",
+                "amount": 0,
+                "operation": "add_value",
+                "slot": "mainhand"
+            },
+            {
+                "type": "minecraft:attack_speed",
+                "id": "diamond_shovel_percent_speed",
+                "amount": 0.3,
+                "operation": "add_multiplied_total",
+                "slot": "mainhand"
+            }
+        ]
+    }
+}

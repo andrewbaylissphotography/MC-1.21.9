@@ -1,0 +1,137 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:netherite_boots",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Legendary Netherite Boots",
+                "color": "gold",
+                "italic": false
+            },
+"minecraft:lore": [
+    [
+        {
+            "text": "Quality:",
+            "italic": false,
+            "color": "gray"
+        },
+        {
+            "text": " "
+        },
+        {
+            "text": "Legendary",
+            "italic": false,
+            "color": "gold"
+        }
+    ],
+    [
+        {
+            "text": "#CoreBound",
+            "italic": false,
+            "color": "gray"
+        }
+    ],
+    [
+        {
+            "text": " ",
+            "italic": false,
+            "color": "gray"
+        }
+    ],
+    [
+        {
+            "text": "When equipped:",
+            "italic": false,
+            "color": "gray"
+        }
+]
+,
+    [
+        {
+            "text": "+7",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Armor",
+            "italic": false,
+            "color": "blue"
+        }
+    ],
+    [
+        {
+            "text": "+7",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Armor Toughness",
+            "italic": false,
+            "color": "blue"
+        }
+    ],
+    [
+        {
+            "text": "+0.14",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Knockback Resistance",
+            "italic": false,
+            "color": "blue"
+        }
+    ],
+    [
+        {
+            "text": "+5",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Max Health",
+            "italic": false,
+            "color": "blue"
+        }
+    ],
+    [
+        {
+            "text": "+962",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Durability",
+            "italic": false,
+            "color": "blue"
+        }
+    ]
+,
+            [
+                {
+                    "text": "Passive Ability: ",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            [
+                {
+                    "text": "Below 30% Health: Speed I",
+                    "italic": false,
+                    "color": "dark_green"
+                }
+            ]
+],
+
+"minecraft:item_model": "corebound_rp:netherite-boots-l",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

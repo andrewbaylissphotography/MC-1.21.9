@@ -1,0 +1,96 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:diamond_axe",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Legendary Diamond Axe",
+                "color": "gold",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Quality:",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "Legendary",
+                        "italic": false,
+                        "color": "gold"
+                    }
+                ],
+                [
+                    {
+                        "text": "#CoreBound",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": " ",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": "When in Main Hand",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": "18.2",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Attack Damage",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ],
+                [
+                    {
+                        "text": "7",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Attack Speed",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ],
+                [
+                    {
+                        "text": "+3122",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Durability",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ]
+                
+
+            ],
+"minecraft:item_model": "corebound_rp:diamond-axe-l",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

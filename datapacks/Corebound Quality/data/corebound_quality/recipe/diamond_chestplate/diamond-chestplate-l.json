@@ -1,0 +1,111 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:diamond_chestplate",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Legendary Diamond Chestplate",
+                "color": "gold",
+                "italic": false
+            },
+"minecraft:lore": [
+    [
+        {
+            "text": "Quality:",
+            "italic": false,
+            "color": "gray"
+        },
+        {
+            "text": " "
+        },
+        {
+            "text": "Legendary",
+            "italic": false,
+            "color": "gold"
+        }
+    ],
+    [
+        {
+            "text": "#CoreBound",
+            "italic": false,
+            "color": "gray"
+        }
+    ],
+    [
+        {
+            "text": " ",
+            "italic": false,
+            "color": "gray"
+        }
+    ],
+    [
+        {
+            "text": "When equipped:",
+            "italic": false,
+            "color": "gray"
+        }
+]
+,
+    [
+        {
+            "text": "+12",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Armor",
+            "italic": false,
+            "color": "blue"
+        }
+    ],
+    [
+        {
+            "text": "+6",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Armor Toughness",
+            "italic": false,
+            "color": "blue"
+        }
+    ],
+    [
+        {
+            "text": "+5",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Max Health",
+            "italic": false,
+            "color": "blue"
+        }
+    ],
+    [
+        {
+            "text": "+1056",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Durability",
+            "italic": false,
+            "color": "blue"
+        }
+    ]
+
+],
+
+"minecraft:item_model": "corebound_rp:diamond-chestplate-l",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

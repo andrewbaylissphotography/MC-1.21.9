@@ -1,0 +1,84 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:fishing_rod",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Legendary Fishing Rod",
+                "color": "gold",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Quality:",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "Legendary",
+                        "italic": false,
+                        "color": "gold"
+                    }
+                ],
+                [
+                    {
+                        "text": "#CoreBound",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": ""
+                    }
+                ],
+                [
+                    {
+                        "text": "+128",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Durability",
+                        "italic": false,
+                        "color": "blue"
+                    }
+                ]
+                ,
+            [
+                {
+                    "text": "Passive Ability: ",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            [
+                {
+                    "text": "+20% Speed",
+                    "italic": false,
+                    "color": "dark_green"
+                }
+            ],
+            [
+                {
+                    "text": "+3 Luck",
+                    "italic": false,
+                    "color": "dark_green"
+                }
+            ]
+            ],
+"minecraft:item_model": "corebound_rp:fishing_rod-l",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

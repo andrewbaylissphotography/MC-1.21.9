@@ -1,0 +1,88 @@
+{
+    "type": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Legendary Netherite Boots",
+            "color": "gold",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Legendary",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ]
+,
+            [
+                {
+                    "text": "Passive Ability: ",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            [
+                {
+                    "text": "Below 30% Health: Speed I",
+                    "italic": false,
+                    "color": "dark_green"
+                }
+            ]
+
+        ],
+        "minecraft:item_model": "corebound_rp:netherite-boots-l",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 962,
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:armor",
+                "id": "netherite_boots_armor",
+                "amount": 7,
+                "operation": "add_value",
+                "slot": "feet"
+            },
+            {
+                "type": "minecraft:armor_toughness",
+                "id": "netherite_boots_toughness",
+                "amount": 7,
+                "operation": "add_value",
+                "slot": "feet"
+            },
+            {
+                "type": "minecraft:knockback_resistance",
+                "id": "netherite_boots_knockback_resistance",
+                "amount": 0.14,
+                "operation": "add_value",
+                "slot": "feet"
+            },
+            {
+                "type": "minecraft:max_health",
+                "id": "netherite_boots_max_health",
+                "amount": 5,
+                "operation": "add_value",
+                "slot": "feet"
+            }
+        ]
+    }
+}

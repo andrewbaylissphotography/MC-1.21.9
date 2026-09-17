@@ -1,0 +1,63 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:shears",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Uncommon Shears",
+                "color": "green",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Quality:",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "Uncommon",
+                        "italic": false,
+                        "color": "green"
+                    }
+                ],
+                [
+                    {
+                        "text": "#CoreBound",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": ""
+                    }
+                ],
+                [
+                    {
+                        "text": "+298",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Durability",
+                        "italic": false,
+                        "color": "blue"
+                    }
+                ]
+                
+            ],
+"minecraft:item_model": "corebound_rp:shears-u",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

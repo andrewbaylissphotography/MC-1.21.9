@@ -1,0 +1,87 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:golden_chestplate",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Uncommon Golden Chestplate",
+                "color": "green",
+                "italic": false
+            },
+"minecraft:lore": [
+    [
+        {
+            "text": "Quality:",
+            "italic": false,
+            "color": "gray"
+        },
+        {
+            "text": " "
+        },
+        {
+            "text": "Uncommon",
+            "italic": false,
+            "color": "green"
+        }
+    ],
+    [
+        {
+            "text": "#CoreBound",
+            "italic": false,
+            "color": "gray"
+        }
+    ],
+    [
+        {
+            "text": " ",
+            "italic": false,
+            "color": "gray"
+        }
+    ],
+    [
+        {
+            "text": "When equipped:",
+            "italic": false,
+            "color": "gray"
+        }
+]
+,
+    [
+        {
+            "text": "+6",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Armor",
+            "italic": false,
+            "color": "blue"
+        }
+    ],
+    [
+        {
+            "text": "+140",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Durability",
+            "italic": false,
+            "color": "blue"
+        }
+    ]
+
+],
+
+"minecraft:item_model": "corebound_rp:golden-chestplate-u",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

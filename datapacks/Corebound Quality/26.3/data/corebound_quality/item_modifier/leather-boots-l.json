@@ -1,0 +1,74 @@
+{
+    "type": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Legendary Leather Boots",
+            "color": "gold",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Legendary",
+                    "italic": false,
+                    "color": "gold"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ]
+
+
+        ],
+        "minecraft:item_model": "corebound_rp:leather-boots-l",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 130,
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:armor",
+                "id": "leather_boots_armor",
+                "amount": 5,
+                "operation": "add_value",
+                "slot": "feet"
+            },
+            {
+                "type": "minecraft:armor_toughness",
+                "id": "leather_boots_toughness",
+                "amount": 4,
+                "operation": "add_value",
+                "slot": "feet"
+            },
+            {
+                "type": "minecraft:knockback_resistance",
+                "id": "leather_boots_knockback_resistance",
+                "amount": 0.04,
+                "operation": "add_value",
+                "slot": "feet"
+            },
+            {
+                "type": "minecraft:max_health",
+                "id": "leather_boots_max_health",
+                "amount": 5,
+                "operation": "add_value",
+                "slot": "feet"
+            }
+        ]
+    }
+}

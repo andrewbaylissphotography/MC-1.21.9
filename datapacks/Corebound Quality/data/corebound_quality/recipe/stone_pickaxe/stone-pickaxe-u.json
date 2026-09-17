@@ -1,0 +1,96 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:stone_pickaxe",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Uncommon Stone Pickaxe",
+                "color": "green",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Quality:",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "Uncommon",
+                        "italic": false,
+                        "color": "green"
+                    }
+                ],
+                [
+                    {
+                        "text": "#CoreBound",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": " ",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": "When in Main Hand",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": "4.4",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Attack Damage",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ],
+                [
+                    {
+                        "text": "2.42",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Attack Speed",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ],
+                [
+                    {
+                        "text": "+164",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Durability",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ]
+                
+
+            ],
+"minecraft:item_model": "corebound_rp:stone-pickaxe-u",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

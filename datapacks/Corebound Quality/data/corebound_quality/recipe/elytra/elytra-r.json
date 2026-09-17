@@ -1,0 +1,63 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:elytra",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Rare Elytra",
+                "color": "blue",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Quality:",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "Rare",
+                        "italic": false,
+                        "color": "blue"
+                    }
+                ],
+                [
+                    {
+                        "text": "#CoreBound",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": ""
+                    }
+                ],
+                [
+                    {
+                        "text": "+648",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Durability",
+                        "italic": false,
+                        "color": "blue"
+                    }
+                ]
+                
+            ],
+"minecraft:item_model": "corebound_rp:elytra-r",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

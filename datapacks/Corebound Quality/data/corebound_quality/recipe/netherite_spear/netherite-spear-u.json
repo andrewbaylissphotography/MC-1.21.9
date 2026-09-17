@@ -1,0 +1,96 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:netherite_spear",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Uncommon Netherite Spear",
+                "color": "green",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Quality:",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "Uncommon",
+                        "italic": false,
+                        "color": "green"
+                    }
+                ],
+                [
+                    {
+                        "text": "#CoreBound",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": " ",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": "When in Main Hand",
+                        "italic": false,
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": "6.6",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Attack Damage",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ],
+                [
+                    {
+                        "text": "2.06",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Attack Speed",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ],
+                [
+                    {
+                        "text": "+2539",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Durability",
+                        "italic": false,
+                        "color": "dark_green"
+                    }
+                ]
+                
+
+            ],
+"minecraft:item_model": "corebound_rp:netherite-spear-u",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

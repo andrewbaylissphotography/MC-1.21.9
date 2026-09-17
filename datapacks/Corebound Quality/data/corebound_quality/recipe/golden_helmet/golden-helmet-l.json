@@ -1,0 +1,99 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:golden_helmet",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Legendary Golden Helmet",
+                "color": "gold",
+                "italic": false
+            },
+"minecraft:lore": [
+    [
+        {
+            "text": "Quality:",
+            "italic": false,
+            "color": "gray"
+        },
+        {
+            "text": " "
+        },
+        {
+            "text": "Legendary",
+            "italic": false,
+            "color": "gold"
+        }
+    ],
+    [
+        {
+            "text": "#CoreBound",
+            "italic": false,
+            "color": "gray"
+        }
+    ],
+    [
+        {
+            "text": " ",
+            "italic": false,
+            "color": "gray"
+        }
+    ],
+    [
+        {
+            "text": "When equipped:",
+            "italic": false,
+            "color": "gray"
+        }
+]
+,
+    [
+        {
+            "text": "+6",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Armor",
+            "italic": false,
+            "color": "blue"
+        }
+    ],
+    [
+        {
+            "text": "+5",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Max Health",
+            "italic": false,
+            "color": "blue"
+        }
+    ],
+    [
+        {
+            "text": "+154",
+            "italic": false,
+            "color": "white"
+        },
+        {
+            "text": " Durability",
+            "italic": false,
+            "color": "blue"
+        }
+    ]
+
+],
+
+"minecraft:item_model": "corebound_rp:golden-helmet-l",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

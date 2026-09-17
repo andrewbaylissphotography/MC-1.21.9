@@ -1,0 +1,74 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Epic Chainmail Boots",
+            "color": "light_purple",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Epic",
+                    "italic": false,
+                    "color": "light_purple"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ]
+
+
+        ],
+        "minecraft:item_model": "corebound_rp:chainmail-boots-e",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 341,
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:armor",
+                "id": "chainmail_boots_armor",
+                "amount": 4,
+                "operation": "add_value",
+                "slot": "feet"
+            },
+            {
+                "type": "minecraft:armor_toughness",
+                "id": "chainmail_boots_toughness",
+                "amount": 3,
+                "operation": "add_value",
+                "slot": "feet"
+            },
+            {
+                "type": "minecraft:knockback_resistance",
+                "id": "chainmail_boots_knockback_resistance",
+                "amount": 0.03,
+                "operation": "add_value",
+                "slot": "feet"
+            },
+            {
+                "type": "minecraft:max_health",
+                "id": "chainmail_boots_max_health",
+                "amount": 2,
+                "operation": "add_value",
+                "slot": "feet"
+            }
+        ]
+    }
+}

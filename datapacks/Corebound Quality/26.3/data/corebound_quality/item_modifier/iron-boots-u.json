@@ -1,0 +1,74 @@
+{
+    "type": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Uncommon Iron Boots",
+            "color": "green",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Uncommon",
+                    "italic": false,
+                    "color": "green"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ]
+
+
+        ],
+        "minecraft:item_model": "corebound_rp:iron-boots-u",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 244,
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:armor",
+                "id": "iron_boots_armor",
+                "amount": 3,
+                "operation": "add_value",
+                "slot": "feet"
+            },
+            {
+                "type": "minecraft:armor_toughness",
+                "id": "iron_boots_toughness",
+                "amount": 1,
+                "operation": "add_value",
+                "slot": "feet"
+            },
+            {
+                "type": "minecraft:knockback_resistance",
+                "id": "iron_boots_knockback_resistance",
+                "amount": 0.01,
+                "operation": "add_value",
+                "slot": "feet"
+            },
+            {
+                "type": "minecraft:max_health",
+                "id": "iron_boots_max_health",
+                "amount": 0,
+                "operation": "add_value",
+                "slot": "feet"
+            }
+        ]
+    }
+}

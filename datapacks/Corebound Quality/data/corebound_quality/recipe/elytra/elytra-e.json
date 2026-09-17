@@ -1,0 +1,63 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        ["minecraft:barrier"]
+    ],
+    "result": {
+        "id": "minecraft:elytra",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {
+                "text": "Epic Elytra",
+                "color": "light_purple",
+                "italic": false
+            },
+            "minecraft:lore": [
+                [
+                    {
+                        "text": "Quality:",
+                        "italic": false,
+                        "color": "gray"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "Epic",
+                        "italic": false,
+                        "color": "light_purple"
+                    }
+                ],
+                [
+                    {
+                        "text": "#CoreBound",
+                        "color": "gray"
+                    }
+                ],
+                [
+                    {
+                        "text": ""
+                    }
+                ],
+                [
+                    {
+                        "text": "+756",
+                        "italic": false,
+                        "color": "white"
+                    },
+                    {
+                        "text": " Durability",
+                        "italic": false,
+                        "color": "blue"
+                    }
+                ]
+                
+            ],
+"minecraft:item_model": "corebound_rp:elytra-e",
+"minecraft:attribute_modifiers": []
+
+
+        }
+    }
+}

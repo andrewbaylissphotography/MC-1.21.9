@@ -1,0 +1,94 @@
+{
+    "type": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "text": "Rare Wooden Pickaxe",
+            "color": "blue",
+            "italic": false
+        },
+        "minecraft:lore": [
+            [
+                {
+                    "text": "Quality:",
+                    "italic": false,
+                    "color": "gray"
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "text": "Rare",
+                    "italic": false,
+                    "color": "blue"
+                }
+            ],
+            [
+                {
+                    "text": "#CoreBound",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "",
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "When in Main Hand",
+                    "italic": false,
+                    "color": "gray"
+                }
+            ],
+            [
+                {
+                    "text": "4.8 Attack Damage",
+                    "italic": false,
+                    "color": "dark_green"
+                }
+            ],
+            [
+                {
+                    "text": "3.84 Attack Speed",
+                    "italic": false,
+                    "color": "dark_green"
+                }
+            ]
+            
+        ],
+        "minecraft:item_model": "corebound_rp:wooden-pickaxe-r",
+        "minecraft:enchantment_glint_override": false,
+        "minecraft:max_damage": 88,
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:attack_damage",
+                "id": "wooden_pickaxe_damage",
+                "amount": 3,
+                "operation": "add_value",
+                "slot": "mainhand"
+            },
+            {
+                "type": "minecraft:attack_damage",
+                "id": "wooden_pickaxe_percent",
+                "amount": 0.2,
+                "operation": "add_multiplied_total",
+                "slot": "mainhand"
+            },
+            {
+                "type": "minecraft:attack_speed",
+                "id": "wooden_pickaxe_speed",
+                "amount": -0.8,
+                "operation": "add_value",
+                "slot": "mainhand"
+            },
+            {
+                "type": "minecraft:attack_speed",
+                "id": "wooden_pickaxe_percent_speed",
+                "amount": 0.2,
+                "operation": "add_multiplied_total",
+                "slot": "mainhand"
+            }
+        ]
+    }
+}
