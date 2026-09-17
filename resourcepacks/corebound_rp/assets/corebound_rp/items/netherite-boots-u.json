@@ -5,7 +5,11 @@
 
         "cases": [
             {
-                "when": ["gui", "ground", "on_shelf"],
+                "when": [
+                    "gui",
+                    "ground",
+                    "on_shelf"
+                ],
                 "model": {
                     "type": "minecraft:composite",
                     "models": [

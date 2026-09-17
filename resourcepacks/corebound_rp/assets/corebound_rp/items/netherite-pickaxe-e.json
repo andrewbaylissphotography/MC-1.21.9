@@ -5,7 +5,11 @@
 
         "cases": [
             {
-                "when": ["gui", "ground", "on_shelf"],
+                "when": [
+                    "gui",
+                    "ground",
+                    "on_shelf"
+                ],
                 "model": {
                     "type": "minecraft:composite",
                     "models": [
@@ -21,7 +25,7 @@
                         },
                         {
                             "type": "minecraft:model",
-                            "model": "minecraft:item/netherite_hoe",
+                            "model": "minecraft:item/netherite_pickaxe",
                             "transformation": {
                                 "translation": [0, 0, 0.15],
                                 "left_rotation": [0, 0, 0, 1],
@@ -36,7 +40,7 @@
 
         "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:item/netherite_hoe"
+            "model": "minecraft:item/netherite_pickaxe"
         }
     },
 
